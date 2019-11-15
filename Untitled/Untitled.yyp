@@ -47,6 +47,22 @@
             }
         },
         {
+            "Key": "09ad4fa3-8098-4d92-93de-f4e5b86eda5d",
+            "Value": {
+                "id": "df67b629-d970-4d83-94a0-f38a430b8de0",
+                "resourcePath": "sprites\\spr_Tanjirou_Walk\\spr_Tanjirou_Walk.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "16dd260d-d815-496a-9bc3-9c146e59f3ef",
+            "Value": {
+                "id": "0640504c-8720-4207-a5cb-25151ab942a1",
+                "resourcePath": "sprites\\spr_Blade\\spr_Blade.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "28c3cf8c-b818-4632-b87a-1ff7fcbaca5c",
             "Value": {
                 "id": "4c6a6b26-8531-4394-a832-50c91b6dce7a",
@@ -71,11 +87,35 @@
             }
         },
         {
+            "Key": "5156fe47-4feb-4f31-8757-2e90f4571d9f",
+            "Value": {
+                "id": "8bdac39f-c606-4766-a0b9-3ac9d457565e",
+                "resourcePath": "objects\\obj_TanjirouUIRenderer\\obj_TanjirouUIRenderer.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "55b270da-ef53-4c7c-9141-95c9b841aeac",
             "Value": {
                 "id": "e398d8af-de33-452c-9e97-5a1ce7e746c2",
                 "resourcePath": "views\/55b270da-ef53-4c7c-9141-95c9b841aeac.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "5b4e91c5-86ea-4fed-8563-26457cfd879c",
+            "Value": {
+                "id": "5e6f8b7c-bc40-49c5-b21c-13c30c79cdb7",
+                "resourcePath": "sprites\\spr_Tanjirou_Attack\\spr_Tanjirou_Attack.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5d6e61c2-c69d-44c0-bfb8-18af7449d1b3",
+            "Value": {
+                "id": "04646819-ab46-4b51-90e2-ab8b417ffafe",
+                "resourcePath": "objects\\obj_TanjirouBlade\\obj_TanjirouBlade.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -95,6 +135,14 @@
             }
         },
         {
+            "Key": "8d512095-ea02-45f8-b1bd-321c20294841",
+            "Value": {
+                "id": "3195b4b1-65b1-40ea-bd12-f2bba0d26eca",
+                "resourcePath": "sprites\\spr_Tanjirou_DodgeUp\\spr_Tanjirou_DodgeUp.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "92b3e1b2-f453-40ad-af0c-561dda286fc2",
             "Value": {
                 "id": "549131ae-8d5b-41b0-af8e-c1325e6a5f6d",
@@ -111,6 +159,14 @@
             }
         },
         {
+            "Key": "b14d0723-96cb-4899-9923-98de10e9c271",
+            "Value": {
+                "id": "0e652f53-b498-4041-8237-fbc84a5ec479",
+                "resourcePath": "sprites\\spr_Tanjirou_DodgeDown\\spr_Tanjirou_DodgeDown.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b87d6daf-fe7c-4384-aa4e-4d9c630726ee",
             "Value": {
                 "id": "6235e1fc-8f07-403b-bdcd-65f611c0e1d4",
@@ -119,11 +175,27 @@
             }
         },
         {
+            "Key": "b9aff20e-3fca-4448-9b8f-a3481a275542",
+            "Value": {
+                "id": "e2e5d4ac-f813-4441-a073-5c356024daf4",
+                "resourcePath": "sprites\\spr_Tanjirou_Idle\\spr_Tanjirou_Idle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "bad65891-e709-4a52-8f61-d9dfa3910566",
             "Value": {
                 "id": "d0133b65-8147-408a-bc7b-1b10de6b5317",
                 "resourcePath": "views\/bad65891-e709-4a52-8f61-d9dfa3910566.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "bd1ea97c-5a2d-4d73-92ce-ef9d556c6530",
+            "Value": {
+                "id": "32f46393-d7c4-4897-9bd6-5d2ce8c4277d",
+                "resourcePath": "sprites\\spr_TanjirouIcon\\spr_TanjirouIcon.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -151,6 +223,14 @@
             }
         },
         {
+            "Key": "ce38eec5-236c-4b12-9af5-ac24268bd18b",
+            "Value": {
+                "id": "d704f03e-1ff9-4f12-bf96-bb2f69e4d3e6",
+                "resourcePath": "scripts\\script0\\script0.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "cf10e193-b695-4622-a4ec-fb6599fbbfde",
             "Value": {
                 "id": "f6da83ab-b878-4313-b500-89bc769586db",
@@ -175,6 +255,22 @@
             }
         },
         {
+            "Key": "dfc52a9c-7bf9-477a-a498-c51f12d5208d",
+            "Value": {
+                "id": "81a051e8-42ef-4c3e-b7fa-48917e59aa86",
+                "resourcePath": "objects\\obj_Tanjirou\\obj_Tanjirou.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e02970bd-9df3-4ae0-8acc-e1b34f46c8c6",
+            "Value": {
+                "id": "cd1820a7-8c21-4c01-a467-a356c3fc0a36",
+                "resourcePath": "sprites\\spr_Tanjirou_Dodge\\spr_Tanjirou_Dodge.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "5f334cce-badc-4f43-80b4-401e64b84ea3",
@@ -189,10 +285,18 @@
                 "resourcePath": "views\/fce48615-0be4-4c7f-ac6c-b69b0e29a996.yy",
                 "resourceType": "GMFolder"
             }
+        },
+        {
+            "Key": "fd5917d8-75a8-425e-8067-91c87412f85f",
+            "Value": {
+                "id": "362bf16f-15ea-4efe-a504-8c5e62abcbb1",
+                "resourcePath": "views\\fd5917d8-75a8-425e-8067-91c87412f85f.yy",
+                "resourceType": "GMFolder"
+            }
         }
     ],
     "script_order": [
-        
+        "ce38eec5-236c-4b12-9af5-ac24268bd18b"
     ],
     "tutorial": ""
 }
