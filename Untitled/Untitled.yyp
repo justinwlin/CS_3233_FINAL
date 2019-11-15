@@ -55,6 +55,22 @@
             }
         },
         {
+            "Key": "0f6b9ce8-c0c5-4e20-9422-71e42d905238",
+            "Value": {
+                "id": "9e7d2e92-dd5e-4cda-bb9e-58097fd2cf04",
+                "resourcePath": "sprites\\spr_Inosuke_Walk\\spr_Inosuke_Walk.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "0f7349c9-2b5b-448c-b235-91f08704019c",
+            "Value": {
+                "id": "9a5502d7-4bf8-4ded-8ecc-19ddfa894aa8",
+                "resourcePath": "sprites\\spr_Inosuke_DashDown\\spr_Inosuke_DashDown.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "16dd260d-d815-496a-9bc3-9c146e59f3ef",
             "Value": {
                 "id": "0640504c-8720-4207-a5cb-25151ab942a1",
@@ -87,6 +103,14 @@
             }
         },
         {
+            "Key": "4730261c-955a-4b14-8998-962c94bbe750",
+            "Value": {
+                "id": "45ea7702-6827-4723-87af-2419e71df1ae",
+                "resourcePath": "sprites\\spr_Inosuke_DashUp\\spr_Inosuke_DashUp.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5156fe47-4feb-4f31-8757-2e90f4571d9f",
             "Value": {
                 "id": "8bdac39f-c606-4766-a0b9-3ac9d457565e",
@@ -100,6 +124,14 @@
                 "id": "e398d8af-de33-452c-9e97-5a1ce7e746c2",
                 "resourcePath": "views\/55b270da-ef53-4c7c-9141-95c9b841aeac.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "5a5f5338-594e-4990-8d8a-e131cdfdc87d",
+            "Value": {
+                "id": "926933de-5d78-442d-b633-dafb810fb9c6",
+                "resourcePath": "sprites\\spr_Inosuke_Stunned\\spr_Inosuke_Stunned.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -124,6 +156,14 @@
                 "id": "8ec9fc56-f4c9-4fee-9ca2-f500ebb6e5cf",
                 "resourcePath": "views\/60ab75f8-a533-473e-af7b-3409df0f79f4.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "7e5e1252-dfb3-461f-893d-f6b0d0d8785c",
+            "Value": {
+                "id": "391a2ffb-d63f-4017-8ba7-ae3f1ceb2fe0",
+                "resourcePath": "sprites\\spr_Inosuke_Dash\\spr_Inosuke_Dash.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
