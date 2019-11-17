@@ -15,27 +15,43 @@ if (hitRock != noone) {
 */
 event_inherited()
 
+rockElapsed--;
 if (stunTimer < stunTimeout) {
 	stunTimer += 1
 	
-} else {myAtkCollider.hasCollider=true;
+	
+} else {
+	myAtkCollider.hasCollider=true;
+	myAtkCollider.mask_index=spr_atk
+
 	if (dashTimer < dashTimeout) {
-		sprite_index = spr_Inosuke_Dash
 		switch (dashDir) {
 			case 0: 
+			sprite_index = spr_dash
 				x += dashSpeed
 				image_xscale = -1//imageScale
 				break
 			case 1:
+			sprite_index = spr_dash
 				x -= dashSpeed
 				image_xscale = 1//imageScale
 				break
+			case 2:
+			myAtkCollider.mask_index=spr_atkUp
+			sprite_index = spr_dashUp
+				y-=dashSpeed
+				break;
+			case 3:
+			myAtkCollider.mask_index=spr_atkDown
+			sprite_index = spr_dashDown
+				y+=dashSpeed
+				break;
 		}
 		dashTimer += 1
 		
 	} else {
 	
-		sprite_index= spr_Inosuke_Walk
+		sprite_index= spr_Walk
 		switch (dashDir) {
 			case 0: 
 				x += walkSpeed
@@ -45,6 +61,12 @@ if (stunTimer < stunTimeout) {
 				x -= walkSpeed
 				image_xscale = 1//imageScale
 				break
+				case 2:
+				y-=walkSpeed
+				break;
+				case 3:
+				y+=walkSpeed
+				break;
 		}
 	
 		nextDashTimer += 1
@@ -53,6 +75,34 @@ if (stunTimer < stunTimeout) {
 	if (nextDashTimer >= nextDashTimeout) {
 		dashTimer = 0
 		nextDashTimer = 0
+		dashDir=irandom_range(0, 3)
+		if (willDestroyRock){
+			xDis=abs(obj_Tanjirou.x-x)
+			yDis=abs(obj_Tanjirou.y-y)
+			if (xDis<200&& yDis<200){
+				if ( xDis<yDis){
+				if (obj_Tanjirou.x>x){
+					dashDir=0;
+				}else {dashDir=1;}
+				}else{
+				if (obj_Tanjirou.y>y){
+					dashDir=3;
+				}else {
+					dashDir=2;
+					}
+				}
+			}else if ( xDis>yDis){
+				if (obj_Tanjirou.x>x){
+					dashDir=0;
+				}else {dashDir=1;}
+			}else{
+				if (obj_Tanjirou.y>y){
+					dashDir=3;
+				}else {
+					dashDir=2;
+					}
+				}
+		}
 	}
 }
 
@@ -63,4 +113,9 @@ if (x < 0) {
 if (x > room_width) {
 	dashDir = 1
 }
-
+if (y<0){
+	dashDir=3;
+}
+if (y>room_height){
+	dashDir=2
+}

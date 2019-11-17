@@ -27,18 +27,11 @@ DashElapsed--;
 MeleeAttackElapsed--;
 
 if (DashElapsed>0){
-	if (keyboard_check(up_key)){
-		sprite_index=spr_Tanjirou_DodgeUp;
-		y-=dodgeSpeed;
-		}
-	else if (keyboard_check(down_key)){
-		sprite_index=spr_Tanjirou_DodgeDown;
-	y+=dodgeSpeed;
-	}else{
-		x+=image_xscale*dodgeSpeed;
-		sprite_index=spr_Tanjirou_Dodge;	
-	}
-
+	
+	y+=dodgeSpeed* y_Direct;
+	x+=dodgeSpeed*x_Direct;
+	
+	
 	if (DashElapsed==1){
 	sprite_index=spr_Tanjirou_Idle;
 	hasCollider=true;
@@ -99,7 +92,22 @@ y+=spd;
 
 if (MeleeAttackElapsed<=0 && keyboard_check_pressed(meleeAtk_key)){
 	MeleeAttackElapsed=MeleeAttackCD;
-	instance_create_depth(x,y,depth-1,obj_TanjirouBlade)
+	ins = instance_create_depth(x,y,depth-1,obj_TanjirouBlade)
+	if (keyboard_check(up_key)){
+	ins.image_angle = 90;
+	}
+	else if (keyboard_check(down_key)){
+		ins.image_angle = 270;
+
+	}
+	else if (keyboard_check(left_key)){
+	ins.image_xscale=-1;
+	//	ins.image_angle = 180;
+
+	}
+	else if (keyboard_check(right_key)){
+		//	ins.image_angle = 0;
+	}
 }
 
 
@@ -107,6 +115,23 @@ if (DashElapsed<=0 && keyboard_check_pressed(dash_key) && !isInvincible){
 	DashElapsed=DashCD;
 	hasCollider=false;
 	isInvincible=true;
+
+x_Direct=0;
+y_Direct=0;
+	if (keyboard_check(up_key)){
+	y_Direct = -1;
+	sprite_index=spr_Tanjirou_DodgeUp;
+		//y-=dodgeSpeed;
+		}
+	else if (keyboard_check(down_key)){
+	y_Direct = 1;
+		sprite_index=spr_Tanjirou_DodgeDown;
+	//y+=dodgeSpeed;
+	}else{
+		x_Direct=image_xscale;
+	//	x+=image_xscale*dodgeSpeed;
+		sprite_index=spr_Tanjirou_Dodge;	
+	}
 
 //	instance_create_depth(x,y,depth-1,obj_TanjirouBlade)
 }

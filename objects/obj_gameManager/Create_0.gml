@@ -14,3 +14,5 @@ for(i = 0; i < numRock; ++i) {
 global.InosukeLove=0;
 global.ZenitsuLove=0;
 maxLove=25;
+
+hasBossOccured=false;

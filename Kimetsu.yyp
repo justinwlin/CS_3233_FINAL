@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "05eef265-5bb1-428b-a753-69c762460847",
+            "Value": {
+                "id": "fa9739c7-2764-4f64-9981-44ad9d0aa6a9",
+                "resourcePath": "sprites\\spr_Inosuke_Boss_Atk_Up\\spr_Inosuke_Boss_Atk_Up.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "07d601e0-62fe-4efb-b0b6-53afaf578ef4",
             "Value": {
                 "id": "ef1410a2-265c-4335-9b15-b32e7d3c1eac",
@@ -135,6 +143,14 @@
             }
         },
         {
+            "Key": "1c71c962-1b03-4b50-b784-61aa91c0cb1c",
+            "Value": {
+                "id": "d8afd283-dc4d-404f-9b5f-5a8891048b98",
+                "resourcePath": "sprites\\spr_Inosuke_Boss_Atk_Hori\\spr_Inosuke_Boss_Atk_Hori.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2554d1ea-5335-4b0a-8c40-c57a9eff0cc2",
             "Value": {
                 "id": "ce676e07-23fb-4492-b0c2-77f0d38b3abe",
@@ -188,6 +204,14 @@
                 "id": "9ccdfe0f-fdc6-444c-aa1d-b7205c61d77a",
                 "resourcePath": "views\/434958d1-38b2-4066-89a3-3d1c1121ca8c.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "434a16d2-efb0-4c13-b177-da82f0b96860",
+            "Value": {
+                "id": "a137d658-406e-4129-9525-0ccd3db0d21d",
+                "resourcePath": "sprites\\spr_Inosuke_Boss_Dash_Up\\spr_Inosuke_Boss_Dash_Up.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -343,6 +367,14 @@
             }
         },
         {
+            "Key": "a8ccf83e-fabf-44cc-83e0-c6ee710b5a6e",
+            "Value": {
+                "id": "2cbd22f5-158d-48e9-94c5-440df4cbd168",
+                "resourcePath": "sprites\\spr_Inosuke_Boss_Dash_Down\\spr_Inosuke_Boss_Dash_Down.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "84d8ea3b-1908-4720-9bf1-3bcf1152d3d4",
@@ -356,6 +388,14 @@
                 "id": "f2ae75b1-8c92-4e02-94c7-ab37712d9355",
                 "resourcePath": "sprites\\spr_Inosuke_Head\\spr_Inosuke_Head.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ab20f78b-2f08-4cbc-aff9-4d959b054645",
+            "Value": {
+                "id": "0895a412-0c02-4fce-a0e3-1b3ac6b19033",
+                "resourcePath": "objects\\obj_Big_Inosuke\\obj_Big_Inosuke.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -420,6 +460,14 @@
                 "id": "bf3e2a6c-835a-4edf-96ad-28d667d111e1",
                 "resourcePath": "views\/c2867a37-88e0-44d8-b11d-ad59f3b20a99.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c7027088-4467-4962-9735-64e19bd3ecab",
+            "Value": {
+                "id": "41f87548-57ab-48af-90f3-124128ec727b",
+                "resourcePath": "sprites\\spr_Inosuke_Boss_Atk_Down\\spr_Inosuke_Boss_Atk_Down.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

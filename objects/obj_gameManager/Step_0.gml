@@ -6,6 +6,11 @@ if (keyboard_check_pressed(ord("Q"))) {
 	game_end()
 }
 
+if (global.InosukeLove>=25 && !hasBossOccured){
+hasBossOccured=true;
+instance_create_depth(500, 300, 0, obj_Big_Inosuke)
+}
+
 if (!instance_exists(obj_Enemy)){
 
 room_goto(Ending1);
