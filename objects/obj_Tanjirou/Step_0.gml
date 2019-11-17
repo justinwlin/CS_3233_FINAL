@@ -1,8 +1,28 @@
 /// @description Insert description here
 // You can write your code in this editor
+if (isInvincible){
+	invincibleElapsed--;
+	if (invincibleElapsed>0 && hasCollider){
+		image_blend=c_red
+		bloodTimer++;
+		if (bloodTimer>=2){
+			bloodTimer=0;
+			isShakeLeft=!isShakeLeft;
+		}
+		if (isShakeLeft){
+			x+=5;
+		}else{
+			x-=5;
+		}
 
+	}else{
+	image_blend=c_white
+	}
+	if (invincibleElapsed<0){
+	isInvincible=false;
+	}
 
-
+}
 DashElapsed--;
 MeleeAttackElapsed--;
 
@@ -21,6 +41,8 @@ if (DashElapsed>0){
 
 	if (DashElapsed==1){
 	sprite_index=spr_Tanjirou_Idle;
+	hasCollider=true;
+	isInvincible=false;
 	}
 	return;
 }
@@ -81,8 +103,10 @@ if (MeleeAttackElapsed<=0 && keyboard_check_pressed(meleeAtk_key)){
 }
 
 
-if (DashElapsed<=0 && keyboard_check_pressed(dash_key)){
+if (DashElapsed<=0 && keyboard_check_pressed(dash_key) && !isInvincible){
 	DashElapsed=DashCD;
+	hasCollider=false;
+	isInvincible=true;
 
 //	instance_create_depth(x,y,depth-1,obj_TanjirouBlade)
 }

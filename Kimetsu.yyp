@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "0d78a08a-e19e-46be-afe6-ab9a8379b674",
+            "Value": {
+                "id": "3cb58c21-6872-4d3d-a65e-27444d759e7d",
+                "resourcePath": "sprites\\spr_Inosuke_Dash_Atk_Down\\spr_Inosuke_Dash_Atk_Down.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0f6b9ce8-c0c5-4e20-9422-71e42d905238",
             "Value": {
                 "id": "9e7d2e92-dd5e-4cda-bb9e-58097fd2cf04",
@@ -103,6 +111,14 @@
             }
         },
         {
+            "Key": "282911d5-36da-4d26-8e35-62cb1cb5f140",
+            "Value": {
+                "id": "b0603cd0-7911-43c0-8d2b-25927791c873",
+                "resourcePath": "objects\\obj_Enemy\\obj_Enemy.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "28c3cf8c-b818-4632-b87a-1ff7fcbaca5c",
             "Value": {
                 "id": "4c6a6b26-8531-4394-a832-50c91b6dce7a",
@@ -116,6 +132,14 @@
                 "id": "4a719812-4dde-4320-80dd-f1cd20bb1892",
                 "resourcePath": "views\/2adb9484-e193-428d-9fee-ecf5906758dd.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "3e1a9e7f-a4cd-47b3-a0c7-0027d3bd49bb",
+            "Value": {
+                "id": "23984201-55ea-4704-9b8a-f4ce0d689a0d",
+                "resourcePath": "sprites\\spr_Zenitsu_Walk\\spr_Zenitsu_Walk.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -140,6 +164,14 @@
                 "id": "8bdac39f-c606-4766-a0b9-3ac9d457565e",
                 "resourcePath": "objects\/obj_TanjirouUIRenderer\/obj_TanjirouUIRenderer.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "525e14e8-76d4-4f7a-99f8-65e5a62a0b6e",
+            "Value": {
+                "id": "85b8901d-80c7-4bfd-9242-adc00f514427",
+                "resourcePath": "sprites\\spr_Inosuke_Dash_Atk_Hori\\spr_Inosuke_Dash_Atk_Hori.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -191,6 +223,14 @@
             }
         },
         {
+            "Key": "72f42448-2cc6-4cec-8d63-b209652ce2c6",
+            "Value": {
+                "id": "07d97af3-60c6-45ad-ac69-2ac489a60c86",
+                "resourcePath": "views\\72f42448-2cc6-4cec-8d63-b209652ce2c6.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "7e5e1252-dfb3-461f-893d-f6b0d0d8785c",
             "Value": {
                 "id": "391a2ffb-d63f-4017-8ba7-ae3f1ceb2fe0",
@@ -223,6 +263,22 @@
             }
         },
         {
+            "Key": "93e5b2c9-0ab1-4ea5-a87c-828232154562",
+            "Value": {
+                "id": "70e62717-ae3d-4915-8b49-c0a8714302f0",
+                "resourcePath": "sprites\\spr_Zenitsu_Attack\\spr_Zenitsu_Attack.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9e32230b-7441-43dd-bca3-553bac29cd56",
+            "Value": {
+                "id": "642d4816-1474-4136-9a0a-d5d142831d5e",
+                "resourcePath": "sprites\\spr_Inosuke_Boss_Dash\\spr_Inosuke_Boss_Dash.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9fc5a816-9edf-4529-8e7f-0b132deff71a",
             "Value": {
                 "id": "50dc576a-1c0b-487e-adac-40fbbdce9a11",
@@ -236,6 +292,14 @@
                 "id": "84d8ea3b-1908-4720-9bf1-3bcf1152d3d4",
                 "resourcePath": "options\/linux\/options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "ae8eb7d5-b50b-4a4f-bd9c-bed718708b59",
+            "Value": {
+                "id": "b1368701-5bdd-4d7d-9ac5-e751563bf4c7",
+                "resourcePath": "sprites\\spr_Inosuke_Boss_Walk\\spr_Inosuke_Boss_Walk.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -311,10 +375,34 @@
             }
         },
         {
+            "Key": "d68304dc-17c3-4a38-82a6-98d679b428e5",
+            "Value": {
+                "id": "13216cd2-6132-47af-a8bb-519f6bec27b8",
+                "resourcePath": "objects\\obj_attacker\\obj_attacker.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "da0375a1-530c-4a9f-835c-5fc3f17c367b",
             "Value": {
                 "id": "334b1781-bc2f-4ac3-a1e1-0e20531cea1d",
                 "resourcePath": "views\/da0375a1-530c-4a9f-835c-5fc3f17c367b.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "da25ec94-810a-49c8-aa41-f3bec53d2214",
+            "Value": {
+                "id": "0ce9ce94-025a-4d21-9d62-274c94b8389a",
+                "resourcePath": "sprites\\spr_Inosuke_Boss_Stunned\\spr_Inosuke_Boss_Stunned.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "da960867-69c6-4fbe-a253-175132cf5e35",
+            "Value": {
+                "id": "452212e3-66fd-4581-90f6-ae5f6807f008",
+                "resourcePath": "views\\da960867-69c6-4fbe-a253-175132cf5e35.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -339,6 +427,14 @@
             "Value": {
                 "id": "cd1820a7-8c21-4c01-a467-a356c3fc0a36",
                 "resourcePath": "sprites\/spr_Tanjirou_Dodge\/spr_Tanjirou_Dodge.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f396e58d-52e4-4edf-811d-691e1ec9271b",
+            "Value": {
+                "id": "8acd3809-897c-4676-8c13-7c4b343f364d",
+                "resourcePath": "sprites\\spr_Inosuke_Dash_Atk_Up\\spr_Inosuke_Dash_Atk_Up.yy",
                 "resourceType": "GMSprite"
             }
         },

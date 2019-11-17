@@ -20,3 +20,11 @@ dash_key=ord("K")
 
 dodgeSpeed=15;
 currDirection=0;//90,180,270
+
+isInvincible=false;
+invincibleElapsed=0;
+invincibleCD=30;
+
+hasCollider=true;
+bloodTimer=0;
+isShakeLeft=false;
