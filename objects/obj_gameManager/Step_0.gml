@@ -6,3 +6,10 @@ if (keyboard_check_pressed(ord("Q"))) {
 	game_end()
 }
 
+if (!instance_exists(obj_Enemy)){
+
+room_goto(Ending1);
+}
+if (global.TanHP<=0){
+room_goto(Ending4)
+}
