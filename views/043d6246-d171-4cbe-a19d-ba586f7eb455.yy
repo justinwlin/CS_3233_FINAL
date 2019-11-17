@@ -11,7 +11,8 @@
         "f396e58d-52e4-4edf-811d-691e1ec9271b",
         "0d78a08a-e19e-46be-afe6-ab9a8379b674",
         "4730261c-955a-4b14-8998-962c94bbe750",
-        "0f7349c9-2b5b-448c-b235-91f08704019c"
+        "0f7349c9-2b5b-448c-b235-91f08704019c",
+        "a93ce097-c454-4557-8f16-9622e72db522"
     ],
     "filterType": "GMSprite",
     "folderName": "spr_Inosuke",

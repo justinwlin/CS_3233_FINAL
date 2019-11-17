@@ -13,7 +13,7 @@ if (randomStart == 1) {
 	x = start[1]
 }
 
-dashSpeed = random_range(4, 6)
+dashSpeed = random_range(4,6)
 walkSpeed = random_range(1, 2)
 
 dashTimer = 0

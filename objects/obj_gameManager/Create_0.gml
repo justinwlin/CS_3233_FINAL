@@ -11,3 +11,6 @@ for(i = 0; i < numSmallInosuke; ++i) {
 for(i = 0; i < numRock; ++i) {
 	instance_create_depth(0, 0, 0, obj_Rock)
 }
+global.InosukeLove=0;
+global.ZenitsuLove=0;
+maxLove=25;

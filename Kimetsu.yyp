@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "0f5054bf-1489-4669-bcda-d7823520dd8c",
+            "Value": {
+                "id": "1e59da56-9b71-4737-b11d-9e5be2406e68",
+                "resourcePath": "sprites\\spr_heart\\spr_heart.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0f6b9ce8-c0c5-4e20-9422-71e42d905238",
             "Value": {
                 "id": "9e7d2e92-dd5e-4cda-bb9e-58097fd2cf04",
@@ -295,6 +303,14 @@
             }
         },
         {
+            "Key": "a93ce097-c454-4557-8f16-9622e72db522",
+            "Value": {
+                "id": "f2ae75b1-8c92-4e02-94c7-ab37712d9355",
+                "resourcePath": "sprites\\spr_Inosuke_Head\\spr_Inosuke_Head.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ae8eb7d5-b50b-4a4f-bd9c-bed718708b59",
             "Value": {
                 "id": "b1368701-5bdd-4d7d-9ac5-e751563bf4c7",
@@ -340,6 +356,14 @@
                 "id": "32f46393-d7c4-4897-9bd6-5d2ce8c4277d",
                 "resourcePath": "sprites\/spr_TanjirouIcon\/spr_TanjirouIcon.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c03ea41f-b0b9-4df6-93fb-6e28082b43a4",
+            "Value": {
+                "id": "3ec726fc-ceca-4fd1-8221-3c3b979b7d6a",
+                "resourcePath": "objects\\obj_heart\\obj_heart.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -431,6 +455,14 @@
             }
         },
         {
+            "Key": "eaf5a586-361f-4aa4-a98c-2d56bf987e9d",
+            "Value": {
+                "id": "0d6187c3-1677-469d-9266-7fbc983908c0",
+                "resourcePath": "scripts\\shootHeart\\shootHeart.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f396e58d-52e4-4edf-811d-691e1ec9271b",
             "Value": {
                 "id": "8acd3809-897c-4676-8c13-7c4b343f364d",
@@ -464,7 +496,7 @@
         }
     ],
     "script_order": [
-        
+        "eaf5a586-361f-4aa4-a98c-2d56bf987e9d"
     ],
     "tutorial": ""
 }

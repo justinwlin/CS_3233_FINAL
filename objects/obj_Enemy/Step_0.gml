@@ -11,7 +11,7 @@ isShowingHealthBar=false;
 }
 
 if (invincibleElapsed>0){
-image_blend=c_red
+image_blend=make_color_rgb(255,105,126)
 bloodTimer++;
 if (bloodTimer>=2){
 	bloodTimer=0;

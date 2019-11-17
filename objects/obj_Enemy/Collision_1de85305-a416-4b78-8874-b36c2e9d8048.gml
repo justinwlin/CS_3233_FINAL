@@ -2,6 +2,7 @@
 // You can write your code in this editor
 if (isInvincible){return;}
 
+shootHeart(x,y);
 hp-=other.atk;
 isInvincible=true;
 invincibleElapsed=invincibleCD;
