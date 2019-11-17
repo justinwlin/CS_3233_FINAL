@@ -79,10 +79,26 @@
             }
         },
         {
+            "Key": "149c9d72-99a5-4bd2-974d-2ae44fa7ae88",
+            "Value": {
+                "id": "c546c1b5-bc95-48b7-9385-4ee266f0a64b",
+                "resourcePath": "objects\/obj_Small_Inosuke\/obj_Small_Inosuke.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "16dd260d-d815-496a-9bc3-9c146e59f3ef",
             "Value": {
                 "id": "0640504c-8720-4207-a5cb-25151ab942a1",
                 "resourcePath": "sprites\/spr_Blade\/spr_Blade.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "2554d1ea-5335-4b0a-8c40-c57a9eff0cc2",
+            "Value": {
+                "id": "ce676e07-23fb-4492-b0c2-77f0d38b3abe",
+                "resourcePath": "sprites\/spr_Rock\/spr_Rock.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -167,6 +183,14 @@
             }
         },
         {
+            "Key": "6acfed8c-7d81-464b-86f8-e32c907c3674",
+            "Value": {
+                "id": "be29e8d0-dd1b-468d-a509-f52d4fd31194",
+                "resourcePath": "objects\/obj_gameManager\/obj_gameManager.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7e5e1252-dfb3-461f-893d-f6b0d0d8785c",
             "Value": {
                 "id": "391a2ffb-d63f-4017-8ba7-ae3f1ceb2fe0",
@@ -196,6 +220,14 @@
                 "id": "549131ae-8d5b-41b0-af8e-c1325e6a5f6d",
                 "resourcePath": "views\/92b3e1b2-f453-40ad-af0c-561dda286fc2.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "9fc5a816-9edf-4529-8e7f-0b132deff71a",
+            "Value": {
+                "id": "50dc576a-1c0b-487e-adac-40fbbdce9a11",
+                "resourcePath": "objects\/obj_Rock\/obj_Rock.yy",
+                "resourceType": "GMObject"
             }
         },
         {
