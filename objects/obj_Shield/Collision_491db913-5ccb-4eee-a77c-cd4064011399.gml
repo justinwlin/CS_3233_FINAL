@@ -1,7 +1,7 @@
 //defensing sprite animate
 
 if (hasAdded)return;
-
+obj_Tanjirou.isParrying=true;
 
 if (elapsed<=5 && !other.isPassive){
 	if (abs(other.parent.dir-dir) ==2){

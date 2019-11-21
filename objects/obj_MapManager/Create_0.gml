@@ -29,8 +29,9 @@ existRooms = [2,7,11,12]
 for(i=0;i<4;i++){
 maps[|existRooms[i]].exist=true;
 for(j=0;j<3;j++){
-	ran = irandom_range(0,2)
-	ds_map_replace(maps[|existRooms[i]].enimies, j, ran);
+//	ran = irandom_range(0,2)
+//	ds_map_replace(maps[|existRooms[i]].enimies, j, ran);
+	ds_map_replace(maps[|existRooms[i]].enimies, 1, 2);
 }
 
 }

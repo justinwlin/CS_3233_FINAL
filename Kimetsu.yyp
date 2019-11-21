@@ -215,6 +215,14 @@
             }
         },
         {
+            "Key": "2b1cd49c-7288-4ba3-91ed-7ef60c1a45e0",
+            "Value": {
+                "id": "af1cd322-2b55-4dd0-85e8-bb60e66708b9",
+                "resourcePath": "scripts\\getDirection\\getDirection.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "3532402c-b4d4-4a75-839d-28d87ab6479d",
             "Value": {
                 "id": "20fa4d37-ebea-4c3e-8e96-b3468cf28bc6",
@@ -236,6 +244,14 @@
                 "id": "0af95f13-3242-437e-9d07-272108aac784",
                 "resourcePath": "sprites\\spr_explode\\spr_explode.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3830ce3a-b739-45e9-87ad-e29cc725a9a6",
+            "Value": {
+                "id": "0fabcf12-0ab6-4631-8b38-d7095e15a666",
+                "resourcePath": "views\\3830ce3a-b739-45e9-87ad-e29cc725a9a6.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -327,6 +343,14 @@
             }
         },
         {
+            "Key": "5dde9706-8bc5-4415-9ae3-d717511d164d",
+            "Value": {
+                "id": "c5d92c0e-9623-428a-a577-311ad7221fb1",
+                "resourcePath": "sprites\\spr_Zenitsu_Boss_DashCollider\\spr_Zenitsu_Boss_DashCollider.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "5e2d8c73-bf55-4f20-bfe3-cbaf0cd7a022",
             "Value": {
                 "id": "763f560e-bb15-4050-889d-118b50ee1bb7",
@@ -391,11 +415,27 @@
             }
         },
         {
+            "Key": "81c8ad79-4a28-4074-936a-b1bfd9b522f4",
+            "Value": {
+                "id": "fbeffc04-1eeb-4189-96ac-25ccbb627938",
+                "resourcePath": "views\\81c8ad79-4a28-4074-936a-b1bfd9b522f4.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "84ed9481-9f6a-43f0-8eb7-17d275ed1533",
             "Value": {
                 "id": "a312c89b-71cb-4b9b-9966-798a3e7a5c84",
                 "resourcePath": "rooms\\Ending4\\Ending4.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "86e17dbe-7436-4de6-ba97-177502994142",
+            "Value": {
+                "id": "10263e3f-2317-4ba9-a7f1-50bb9bddd196",
+                "resourcePath": "sprites\\spr_Zenitsu_Boss_IdleCollider\\spr_Zenitsu_Boss_IdleCollider.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -463,6 +503,14 @@
             }
         },
         {
+            "Key": "a7b229e3-e61c-48bf-af65-d8a624df483f",
+            "Value": {
+                "id": "d39d51aa-75b0-409e-8720-1f14ca485174",
+                "resourcePath": "scripts\\getDirection1\\getDirection1.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "a8ccf83e-fabf-44cc-83e0-c6ee710b5a6e",
             "Value": {
                 "id": "2cbd22f5-158d-48e9-94c5-440df4cbd168",
@@ -503,6 +551,14 @@
             }
         },
         {
+            "Key": "afbe4815-cebf-4c5c-9686-25ba7af8b1f1",
+            "Value": {
+                "id": "aa96391f-d2d7-4784-8372-2372895be222",
+                "resourcePath": "sprites\\spr_Zenitsu_Boss_Idle\\spr_Zenitsu_Boss_Idle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b14d0723-96cb-4899-9923-98de10e9c271",
             "Value": {
                 "id": "0e652f53-b498-4041-8237-fbc84a5ec479",
@@ -524,6 +580,14 @@
                 "id": "6235e1fc-8f07-403b-bdcd-65f611c0e1d4",
                 "resourcePath": "rooms\\startRoom\\startRoom.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "b87f5787-2e35-47f7-8aca-adb4cb09d269",
+            "Value": {
+                "id": "c959d6e2-2804-4fcb-958b-973cac1dd8bf",
+                "resourcePath": "views\\b87f5787-2e35-47f7-8aca-adb4cb09d269.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -735,6 +799,14 @@
             }
         },
         {
+            "Key": "eb52f98c-c638-4be1-a64d-cf53bd6b33dc",
+            "Value": {
+                "id": "f2fdebda-d1e2-4e9b-86cc-77e992557a27",
+                "resourcePath": "sprites\\spr_Zenitsu_Boss_Dash\\spr_Zenitsu_Boss_Dash.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ede03a94-033a-4fee-b5a6-c5286e3509b5",
             "Value": {
                 "id": "8432e14d-6381-44c4-b8ef-deae038557a0",
@@ -778,7 +850,9 @@
     "script_order": [
         "eaf5a586-361f-4aa4-a98c-2d56bf987e9d",
         "5e2d8c73-bf55-4f20-bfe3-cbaf0cd7a022",
-        "d828a025-75f0-4e96-ad77-205f4902c829"
+        "d828a025-75f0-4e96-ad77-205f4902c829",
+        "2b1cd49c-7288-4ba3-91ed-7ef60c1a45e0",
+        "a7b229e3-e61c-48bf-af65-d8a624df483f"
     ],
     "tutorial": ""
 }

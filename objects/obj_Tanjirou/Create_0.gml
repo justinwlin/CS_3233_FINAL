@@ -41,6 +41,7 @@ defenseSucceedCD=30;//this is to say, 30 frames invincible
 
 isInCrush=0;
 
+isHoldingShield=false;
 isParrying=false;
 parryElapsed=0;
 moveElapsed=0;

@@ -67,7 +67,7 @@ if (MeleeAttackElapsed>0){
 }else{
 	
 	
-if (!isParrying){
+if (!isHoldingShield){
 	
 if (keyboard_check_pressed(left_key)
 ||keyboard_check_pressed(down_key)
@@ -119,7 +119,7 @@ if (keyboard_check(left_key)
 moveElapsed++;
 }
 if (moveElapsed>5){//react in 5 frame
-isParrying=false;
+isHoldingShield=false;
 }
 
 if (MeleeAttackElapsed<=0 && keyboard_check_pressed(meleeAtk_key)){
@@ -160,10 +160,10 @@ y_Direct=0;
 
 }
 
-if (isParrying){
+if (isHoldingShield){
 	parryElapsed--;
 	if (parryElapsed<0 || keyboard_check_released(parry_key)){
-		isParrying=false;
+		isHoldingShield=false;
 		
 		sprite_index=spr_Tanjirou_Idle;
 		instance_destroy(obj_Shield);
@@ -188,7 +188,7 @@ if (isParrying){
 			ins.image_xscale=image_xscale;
 			if (image_xscale==1){ins.dir=0;}else if (image_xscale==-1){ins.dir=2;}
 			}
-		isParrying=true;sprite_index=spr_Tanjirou_Defense;
+		isHoldingShield=true;sprite_index=spr_Tanjirou_Defense;
 	}
 	
 	
