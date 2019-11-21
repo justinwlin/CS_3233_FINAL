@@ -10,6 +10,6 @@ isShowingHealthBar=true;
 showingHealthElapsed=showingHealthCD;
 
 if (hp<=0){
-	instance_destroy(myAtkCollider)
+	//instance_destroy(myAtkCollider)
 instance_destroy()
 }

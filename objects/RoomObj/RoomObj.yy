@@ -1,34 +1,24 @@
 {
-    "id": "9fc5a816-9edf-4529-8e7f-0b132deff71a",
+    "id": "b288d977-10d0-4298-8ba3-9939bcec6014",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_Rock",
+    "name": "RoomObj",
     "eventList": [
         {
-            "id": "13deb832-90c8-46fa-bf73-59593d80857f",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "9fc5a816-9edf-4529-8e7f-0b132deff71a"
-        },
-        {
-            "id": "3ec5834d-c3e1-4414-8ef9-c691ecbea7d9",
+            "id": "9008b360-2b7b-49a6-90ca-841653a76c94",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "9fc5a816-9edf-4529-8e7f-0b132deff71a"
+            "m_owner": "b288d977-10d0-4298-8ba3-9939bcec6014"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "d7ea5bce-f33b-4d73-94e8-1b609c676071",
-    "persistent": false,
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "persistent": true,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
     "physicsFriction": 0.2,
@@ -43,6 +33,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "2554d1ea-5335-4b0a-8c40-c57a9eff0cc2",
+    "spriteId": "00000000-0000-0000-0000-000000000000",
     "visible": true
 }

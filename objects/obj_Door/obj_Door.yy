@@ -1,33 +1,33 @@
 {
-    "id": "9fc5a816-9edf-4529-8e7f-0b132deff71a",
+    "id": "dde14025-9a1e-4553-9240-cc38b6ed7e47",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_Rock",
+    "name": "obj_Door",
     "eventList": [
         {
-            "id": "13deb832-90c8-46fa-bf73-59593d80857f",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 3,
-            "m_owner": "9fc5a816-9edf-4529-8e7f-0b132deff71a"
-        },
-        {
-            "id": "3ec5834d-c3e1-4414-8ef9-c691ecbea7d9",
+            "id": "ca030ccc-7c8f-409f-9b4e-a261131f3421",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 0,
-            "m_owner": "9fc5a816-9edf-4529-8e7f-0b132deff71a"
+            "m_owner": "dde14025-9a1e-4553-9240-cc38b6ed7e47"
+        },
+        {
+            "id": "d277a33b-e576-4fd7-bb0f-ac895946a526",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "dfc52a9c-7bf9-477a-a498-c51f12d5208d",
+            "enumb": 0,
+            "eventtype": 4,
+            "m_owner": "dde14025-9a1e-4553-9240-cc38b6ed7e47"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "d7ea5bce-f33b-4d73-94e8-1b609c676071",
+    "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
@@ -43,6 +43,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "2554d1ea-5335-4b0a-8c40-c57a9eff0cc2",
+    "spriteId": "6729da5d-0894-4fef-8db3-33ebc4a7bfd1",
     "visible": true
 }

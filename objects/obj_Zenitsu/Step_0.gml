@@ -37,16 +37,20 @@ switch (walkDir){
 }
 
 
-if (isWalking){direction = walkDir*90;
+if (isWalking){
+	direction = walkDir*90;
 	sprite_index=spr_Walk
 	if (x<0){
-	walkDir=0;image_xscale=1;
-	}else if (x>room_width){walkDir=2;
-		image_xscale=-1;
+	walkDir=0;
+	image_xscale=-1;
+	}else if (x>room_width){
+		walkDir=2;
+		image_xscale=1;
 		}
 	if (y<0){
 	walkDir=3;
-	}else if (y>room_height){walkDir=1;}
+	}else if (y>room_height){
+		walkDir=1;}
 
 }else{
 /*if (!isBoss){
