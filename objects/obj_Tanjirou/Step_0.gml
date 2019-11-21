@@ -100,12 +100,8 @@ if (MeleeAttackElapsed<=0 && keyboard_check_pressed(meleeAtk_key)){
 		ins.image_angle = 270;
 
 	}
-	else if (keyboard_check(left_key)){
-	ins.image_xscale=-1;
-	//	ins.image_angle = 180;
-
-	}
-	else if (keyboard_check(right_key)){
+	else {
+		ins.image_xscale=image_xscale;
 		//	ins.image_angle = 0;
 	}
 }

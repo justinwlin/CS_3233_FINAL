@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "0307a705-8c0d-41ca-9e7f-c3e4919c9d6d",
+            "Value": {
+                "id": "c0c1352a-06d6-42a9-9de2-0531b4a39297",
+                "resourcePath": "sprites\\spr_WaterDrop\\spr_WaterDrop.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "043d6246-d171-4cbe-a19d-ba586f7eb455",
             "Value": {
                 "id": "6a259ec1-7207-418c-8788-9325b10eff41",
@@ -68,6 +76,14 @@
                 "id": "ef1410a2-265c-4335-9b15-b32e7d3c1eac",
                 "resourcePath": "views\\07d601e0-62fe-4efb-b0b6-53afaf578ef4.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "09aa67fe-4574-413f-adc4-530cf4daba28",
+            "Value": {
+                "id": "e9ada7b0-05cb-4d8c-bf40-a96d268a0636",
+                "resourcePath": "sprites\\spr_Zenitsu_Icon\\spr_Zenitsu_Icon.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -151,6 +167,14 @@
             }
         },
         {
+            "Key": "2197314b-1441-45c2-90a7-220969fdf131",
+            "Value": {
+                "id": "167d63b2-dc93-4164-bf0b-9eb0d61e84f9",
+                "resourcePath": "objects\\obj_Zenitsu\\obj_Zenitsu.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2554d1ea-5335-4b0a-8c40-c57a9eff0cc2",
             "Value": {
                 "id": "ce676e07-23fb-4492-b0c2-77f0d38b3abe",
@@ -180,6 +204,22 @@
                 "id": "4a719812-4dde-4320-80dd-f1cd20bb1892",
                 "resourcePath": "views\/2adb9484-e193-428d-9fee-ecf5906758dd.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "3532402c-b4d4-4a75-839d-28d87ab6479d",
+            "Value": {
+                "id": "20fa4d37-ebea-4c3e-8e96-b3468cf28bc6",
+                "resourcePath": "rooms\\Ending2\\Ending2.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "35d7eae3-e20e-4531-8481-1ee8229c064d",
+            "Value": {
+                "id": "a9aa8d27-88db-4415-a884-a015eb185034",
+                "resourcePath": "sprites\\spr_Zenitsu_Atk_Collider\\spr_Zenitsu_Atk_Collider.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -332,6 +372,14 @@
                 "id": "3195b4b1-65b1-40ea-bd12-f2bba0d26eca",
                 "resourcePath": "sprites\/spr_Tanjirou_DodgeUp\/spr_Tanjirou_DodgeUp.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9124067b-4881-4777-af3a-7bf7f7f29d29",
+            "Value": {
+                "id": "aec902b4-10b5-4901-b871-6a1a48cefcde",
+                "resourcePath": "objects\\obj_WaterDrop\\obj_WaterDrop.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -588,6 +636,14 @@
                 "id": "0d6187c3-1677-469d-9266-7fbc983908c0",
                 "resourcePath": "scripts\\shootHeart\\shootHeart.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "ede03a94-033a-4fee-b5a6-c5286e3509b5",
+            "Value": {
+                "id": "8432e14d-6381-44c4-b8ef-deae038557a0",
+                "resourcePath": "objects\\obj_Zenitsu_Boss\\obj_Zenitsu_Boss.yy",
+                "resourceType": "GMObject"
             }
         },
         {
