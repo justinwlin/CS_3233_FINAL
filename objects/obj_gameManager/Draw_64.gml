@@ -1,7 +1,8 @@
 
 // You can write your code in this editor
 draw_set_color(c_white)
-
+global.InosukeLove = clamp(global.InosukeLove,0,maxLove)
+global.ZenitsuLove = clamp(global.ZenitsuLove,0,maxLove)
 //draw_text(50,90,"WASD to move, J to attack, K to Dash")
 draw_sprite(spr_Inosuke_Head,0,10,10)
 //draw_set_color(c_white)

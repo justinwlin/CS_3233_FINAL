@@ -14,6 +14,7 @@ up_key = ord("W")
 down_key=ord("S")
 left_key=ord("A")
 right_key=ord("D")
+parry_key=ord("L")
 
 meleeAtk_key=ord("J")
 dash_key=ord("K")
@@ -32,3 +33,14 @@ isShakeLeft=false;
 
 x_Direct=0;
 y_Direct=0;
+
+
+isDefenseSucceed=false;
+defenseSuceedElapsed=0;
+defenseSucceedCD=30;//this is to say, 30 frames invincible
+
+isInCrush=0;
+
+isParrying=false;
+parryElapsed=0;
+moveElapsed=0;

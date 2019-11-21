@@ -19,7 +19,6 @@ rockElapsed--;
 if (stunTimer < stunTimeout) {
 	stunTimer += 1
 	
-	
 } else {
 	myAtkCollider.hasCollider=true;
 	myAtkCollider.mask_index=spr_atk
@@ -27,16 +26,20 @@ if (stunTimer < stunTimeout) {
 	if (dashTimer < dashTimeout) {
 		switch (dashDir) {
 			case 0: 
+			
+			
 			sprite_index = spr_dash
 				x += dashSpeed
 				image_xscale = -1//imageScale
 				break
 			case 1:
+			
 			sprite_index = spr_dash
 				x -= dashSpeed
 				image_xscale = 1//imageScale
 				break
 			case 2:
+			
 			myAtkCollider.mask_index=spr_atkUp
 			sprite_index = spr_dashUp
 				y-=dashSpeed
@@ -48,9 +51,9 @@ if (stunTimer < stunTimeout) {
 				break;
 		}
 		dashTimer += 1
-		
+		myAtkCollider.isPassive=false;
 	} else {
-	
+	myAtkCollider.isPassive=true;
 		sprite_index= spr_Walk
 		switch (dashDir) {
 			case 0: 
@@ -119,3 +122,6 @@ if (y<0){
 if (y>room_height){
 	dashDir=2
 }
+//if (dashDir==0){dir=0;}
+dir=dashDir;
+if (dashDir==1){dir=2;}else if (dashDir==2){dir=1;}

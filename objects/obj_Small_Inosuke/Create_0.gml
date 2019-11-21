@@ -55,3 +55,4 @@ stunTimer = stunTimeout
 
 myAtkCollider = instance_create_depth(x,y,depth+1,obj_attacker)
 myAtkCollider.parent = id
+dir=0;
