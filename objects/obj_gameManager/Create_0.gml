@@ -16,4 +16,4 @@ global.InosukeLove=0;
 global.ZenitsuLove=0;
 maxLove=25;
 
-hasBossOccured=false;
+hasBossOccured=noone;

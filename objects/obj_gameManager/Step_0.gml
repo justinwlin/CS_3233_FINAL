@@ -7,24 +7,24 @@ if (keyboard_check_pressed(ord("Q"))) {
 }
 
 if (global.InosukeLove>=25 && !hasBossOccured){
-hasBossOccured=true;
+hasBossOccured=obj_Big_Inosuke;
 instance_create_depth(500, 300, 0, obj_Big_Inosuke)
 }
 if (global.ZenitsuLove>=25 && !hasBossOccured){
-hasBossOccured=true;
+hasBossOccured=obj_Zenitsu_Boss;
 //go back?
 instance_create_depth(500, 300, 0, obj_Zenitsu_Boss)
 }
 
 
 
-if (!instance_exists(obj_Small_Inosuke)){
+if (hasBossOccured == obj_Big_Inosuke && !instance_exists(obj_Big_Inosuke)){
 
-//room_goto(Ending1);
+room_goto(Ending1);
 }
-if (!instance_exists(obj_Zenitsu)){
+if (hasBossOccured == obj_Zenitsu_Boss && !instance_exists(obj_Zenitsu_Boss)){
 
-//room_goto(Ending2);
+room_goto(Ending2);
 }
 
 if (global.TanHP<=0){
