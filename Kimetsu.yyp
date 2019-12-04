@@ -695,6 +695,14 @@
             }
         },
         {
+            "Key": "d2506758-5366-4186-a917-7679308089b9",
+            "Value": {
+                "id": "b85def8f-005a-4d58-9a9b-b47a7f1410a5",
+                "resourcePath": "sprites\/Temporary_Game_Over\/Temporary_Game_Over.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d68304dc-17c3-4a38-82a6-98d679b428e5",
             "Value": {
                 "id": "13216cd2-6132-47af-a8bb-519f6bec27b8",
