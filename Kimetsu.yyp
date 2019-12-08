@@ -79,14 +79,6 @@
             }
         },
         {
-            "Key": "08597e04-a4fd-4e98-af73-258a976fc48d",
-            "Value": {
-                "id": "d5391979-6cfd-4d77-af79-19f8cf68ac90",
-                "resourcePath": "rooms\/Zenitsu_Boss_Room\/Zenitsu_Boss_Room.yy",
-                "resourceType": "GMRoom"
-            }
-        },
-        {
             "Key": "09aa67fe-4574-413f-adc4-530cf4daba28",
             "Value": {
                 "id": "e9ada7b0-05cb-4d8c-bf40-a96d268a0636",
@@ -191,6 +183,14 @@
             }
         },
         {
+            "Key": "24da11ff-801c-419a-a431-59a068a79a59",
+            "Value": {
+                "id": "9e3fe015-7754-42a0-b624-82c062601530",
+                "resourcePath": "sprites\/Tutorial_2\/Tutorial_2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2554d1ea-5335-4b0a-8c40-c57a9eff0cc2",
             "Value": {
                 "id": "ce676e07-23fb-4492-b0c2-77f0d38b3abe",
@@ -204,6 +204,14 @@
                 "id": "b0603cd0-7911-43c0-8d2b-25927791c873",
                 "resourcePath": "objects\/obj_Enemy\/obj_Enemy.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "2895df3f-9abc-491a-b5f9-8127512b7ef9",
+            "Value": {
+                "id": "5e1cfe04-7ff2-43e5-9571-35d90c81988a",
+                "resourcePath": "rooms\/Tutorial_Screen_1\/Tutorial_Screen_1.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -228,14 +236,6 @@
                 "id": "af1cd322-2b55-4dd0-85e8-bb60e66708b9",
                 "resourcePath": "scripts\/getDirection\/getDirection.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "31ba491c-90c2-4c77-8f78-80ec49a3e070",
-            "Value": {
-                "id": "7b9d3ad5-eac0-4eef-90f9-e49568af0840",
-                "resourcePath": "rooms\/Inosuke_Boss_Room\/Inosuke_Boss_Room.yy",
-                "resourceType": "GMRoom"
             }
         },
         {
@@ -391,6 +391,14 @@
             }
         },
         {
+            "Key": "653f3715-0c04-4c91-a76f-dab1eed09d7c",
+            "Value": {
+                "id": "360f4764-7a40-4d1c-9c09-18fd65cb9ac3",
+                "resourcePath": "rooms\/Tutorial_Screen_2\/Tutorial_Screen_2.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "6729da5d-0894-4fef-8db3-33ebc4a7bfd1",
             "Value": {
                 "id": "34d9bfc6-30e9-4744-9c74-feeb9f143a5a",
@@ -415,6 +423,14 @@
             }
         },
         {
+            "Key": "7d1f7f66-fa1b-41b4-bfb7-b330680d9fad",
+            "Value": {
+                "id": "4ac96569-a9de-4684-aaa6-84a7ede85b20",
+                "resourcePath": "sprites\/Tutorial\/Tutorial.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7da792e4-06a5-42dc-8767-4670fd7f6f68",
             "Value": {
                 "id": "79c0a813-cffb-4eb5-9055-5a7f5ba67ddb",
@@ -436,6 +452,14 @@
                 "id": "fbeffc04-1eeb-4189-96ac-25ccbb627938",
                 "resourcePath": "views\/81c8ad79-4a28-4074-936a-b1bfd9b522f4.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "83ea11ed-65b3-42ae-8e3a-4302a3cac8c8",
+            "Value": {
+                "id": "2ecfd975-5217-4b94-839d-c74fd3db0618",
+                "resourcePath": "objects\/obj_temp_room_next\/obj_temp_room_next.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -516,6 +540,14 @@
                 "id": "50dc576a-1c0b-487e-adac-40fbbdce9a11",
                 "resourcePath": "objects\/obj_Rock\/obj_Rock.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a02821bf-ef29-4ed5-b0e7-a65c306efb01",
+            "Value": {
+                "id": "f989fd9d-cbff-4654-ae79-609405397477",
+                "resourcePath": "rooms\/SplashScreen\/SplashScreen.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -647,6 +679,14 @@
             }
         },
         {
+            "Key": "c5d64dd5-4e9c-4cbf-b9f0-ed8f54b20b1c",
+            "Value": {
+                "id": "6bf7e240-20e5-4b35-9c77-6f89e4bc9431",
+                "resourcePath": "sprites\/Start_Screen\/Start_Screen.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c7027088-4467-4962-9735-64e19bd3ecab",
             "Value": {
                 "id": "41f87548-57ab-48af-90f3-124128ec727b",
@@ -759,6 +799,14 @@
             }
         },
         {
+            "Key": "dc9c73f9-2bb5-401b-94c8-6d262ba724b7",
+            "Value": {
+                "id": "a04fa772-4405-4810-b03b-91feebba08e1",
+                "resourcePath": "views\/dc9c73f9-2bb5-401b-94c8-6d262ba724b7.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "dde14025-9a1e-4553-9240-cc38b6ed7e47",
             "Value": {
                 "id": "ab0e7d47-9d2c-43fa-9e91-6f906f9e73df",
@@ -831,6 +879,14 @@
             }
         },
         {
+            "Key": "ec097c16-64c1-4750-ab6e-aec520f877dc",
+            "Value": {
+                "id": "2fd6c757-3b87-408e-895d-b9b26a1e0417",
+                "resourcePath": "sprites\/Tutorial_1\/Tutorial_1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ede03a94-033a-4fee-b5a6-c5286e3509b5",
             "Value": {
                 "id": "8432e14d-6381-44c4-b8ef-deae038557a0",
@@ -852,6 +908,14 @@
                 "id": "5f334cce-badc-4f43-80b4-401e64b84ea3",
                 "resourcePath": "options\/mac\/options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "fa38aa87-8ab7-42ce-8234-54d2f7119f5b",
+            "Value": {
+                "id": "69aeb704-388f-4bd1-90be-5bc48dc36a08",
+                "resourcePath": "rooms\/Tutorial_Screen_3\/Tutorial_Screen_3.yy",
+                "resourceType": "GMRoom"
             }
         },
         {

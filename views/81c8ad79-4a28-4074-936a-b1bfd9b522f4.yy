@@ -19,7 +19,8 @@
         "8c163bc2-a6e4-40a5-90f1-00d3acdc7300",
         "dde14025-9a1e-4553-9240-cc38b6ed7e47",
         "d7ea5bce-f33b-4d73-94e8-1b609c676071",
-        "645adf75-defc-41e9-a431-57b332b58c72"
+        "645adf75-defc-41e9-a431-57b332b58c72",
+        "83ea11ed-65b3-42ae-8e3a-4302a3cac8c8"
     ],
     "filterType": "GMObject",
     "folderName": "Archived",
