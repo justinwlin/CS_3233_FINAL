@@ -1,5 +1,9 @@
 
 // You can write your code in this editor
+
+if (room!=startRoom){
+return;
+}
 draw_set_color(c_white)
 global.InosukeLove = clamp(global.InosukeLove,0,maxLove)
 global.ZenitsuLove = clamp(global.ZenitsuLove,0,maxLove)
