@@ -2,19 +2,23 @@ rm = obj_MapManager.maps[|obj_MapManager.currRoom]
 rm.discovered=true;
 for(i=0;i<4;i++){
 	if (rm.rightDoor!=-1){
-		ins = instance_create_layer(room_width,room_height/2,"Instances",obj_Door);
+		ins = instance_create_layer(room_width-260,room_height/2,"Instances_1_1",obj_Door);
 		ins.dir=0;
+		ins.image_xscale=-1;
 	}
 	if (rm.leftDoor!=-1){
-		ins = instance_create_layer(0,room_height/2,"Instances",obj_Door);
+		ins = instance_create_layer(220,room_height/2,"Instances_1_1",obj_Door);
 		ins.dir=2;
 	}
 	if (rm.upDoor!=-1){
-		ins = instance_create_layer(room_width/2,0,"Instances",obj_Door);
+		ins = instance_create_layer(room_width/2,100,"Instances_1_1",obj_Door);
 		ins.dir=1;
+		ins.image_angle = -90;
+
 	}
 	if (rm.downDoor!=-1){
-		ins = instance_create_layer(room_width/2,room_height,"Instances",obj_Door);
+		ins = instance_create_layer(room_width/2,room_height-50,"Instances_1_1",obj_Door);
+		ins.image_angle = 90;
 		ins.dir=3;
 	}
 

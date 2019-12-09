@@ -10,21 +10,21 @@ switch(argument0){
 	case 0:
 		//go to right room
 		targetJ++;
-    obj_Tanjirou.x=100;
+    obj_Tanjirou.x=300;
 
 	break;
 	case 1:
-		obj_Tanjirou.y=room_height-100;
+		obj_Tanjirou.y=room_height-300;
 
 targetI--;
 	break;
 	case 2:
-		obj_Tanjirou.x=room_width-100;
+		obj_Tanjirou.x=room_width-300;
 		targetJ--;
 
 	break;
 	case 3:
-		obj_Tanjirou.y=100;
+		obj_Tanjirou.y=300;
 		targetI++;
 
 break;

@@ -191,6 +191,14 @@
             }
         },
         {
+            "Key": "24770bf2-9105-4cc8-9237-281355a969db",
+            "Value": {
+                "id": "d82b3bcc-822e-495f-9fd3-d7956f61c9c6",
+                "resourcePath": "sprites\\Ending2CG1\\Ending2CG1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "24da11ff-801c-419a-a431-59a068a79a59",
             "Value": {
                 "id": "9e3fe015-7754-42a0-b624-82c062601530",
@@ -228,6 +236,14 @@
                 "id": "4c6a6b26-8531-4394-a832-50c91b6dce7a",
                 "resourcePath": "views\/28c3cf8c-b818-4632-b87a-1ff7fcbaca5c.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "2a3dbf60-542f-4730-817b-5f7dc57e4235",
+            "Value": {
+                "id": "138c3cfd-751b-4ccb-93fb-cc3a516bcbe5",
+                "resourcePath": "sprites\\Ending2CG4\\Ending2CG4.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -283,6 +299,22 @@
             "Value": {
                 "id": "23984201-55ea-4704-9b8a-f4ce0d689a0d",
                 "resourcePath": "sprites\/spr_Zenitsu_Walk\/spr_Zenitsu_Walk.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3ed37c37-562c-44f4-8521-f8077a44e55c",
+            "Value": {
+                "id": "bf383b43-5d0d-4520-8131-eaa07451f619",
+                "resourcePath": "views\\3ed37c37-562c-44f4-8521-f8077a44e55c.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "3f49e1dd-849e-4875-9b66-324b7e462182",
+            "Value": {
+                "id": "e5a9712d-8232-4321-9437-6f335e81e601",
+                "resourcePath": "sprites\\Ending2CG2\\Ending2CG2.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -428,6 +460,14 @@
                 "id": "07d97af3-60c6-45ad-ac69-2ac489a60c86",
                 "resourcePath": "views\/72f42448-2cc6-4cec-8d63-b209652ce2c6.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "770eb29e-cd92-4583-afa1-bfeb33545ec1",
+            "Value": {
+                "id": "64805700-8d1a-46ae-880d-61d20191e7f4",
+                "resourcePath": "objects\\Ending2Manager\\Ending2Manager.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -843,6 +883,14 @@
             "Value": {
                 "id": "cd1820a7-8c21-4c01-a467-a356c3fc0a36",
                 "resourcePath": "sprites\/spr_Tanjirou_Dodge\/spr_Tanjirou_Dodge.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e338c5b0-0a28-4246-97ab-b224408c5e5e",
+            "Value": {
+                "id": "747b8d58-f5f1-43d6-ac21-39dbe0724388",
+                "resourcePath": "sprites\\Ending2CG3\\Ending2CG3.yy",
                 "resourceType": "GMSprite"
             }
         },
