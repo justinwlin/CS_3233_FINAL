@@ -2,7 +2,7 @@
     "id": "83ea11ed-65b3-42ae-8e3a-4302a3cac8c8",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_temp_room_next",
+    "name": "obj_tutorialManager",
     "eventList": [
         {
             "id": "62269af4-d7ad-4637-a41f-7baeb4df9334",

@@ -14,6 +14,7 @@ for(i = 0; i < numRock; ++i) {
 }
 global.InosukeLove=0;
 global.ZenitsuLove=0;
+global.Boss = noone;
 maxLove=25;
 
-hasBossOccured=noone;
+bossCreated = false;

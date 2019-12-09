@@ -1,6 +1,6 @@
 
 {
-    "name": "Ending4",
+    "name": "loseRoom",
     "id": "84ed9481-9f6a-43f0-8eb7-17d275ed1533",
     "creationCodeFile": "",
     "inheritCode": false,

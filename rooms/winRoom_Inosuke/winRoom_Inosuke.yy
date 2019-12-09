@@ -1,6 +1,6 @@
 
 {
-    "name": "Ending1",
+    "name": "winRoom_Inosuke",
     "id": "d1342d39-15b2-43f1-b0d8-e4b806eaa8ea",
     "creationCodeFile": "",
     "inheritCode": false,

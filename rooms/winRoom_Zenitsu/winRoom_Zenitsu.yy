@@ -1,6 +1,6 @@
 
 {
-    "name": "Ending2",
+    "name": "winRoom_Zenitsu",
     "id": "3532402c-b4d4-4a75-839d-28d87ab6479d",
     "creationCodeFile": "",
     "inheritCode": false,

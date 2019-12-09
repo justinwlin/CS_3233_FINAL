@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "04aa388f-6b13-44c6-9e58-10d2837ceeb7",
+            "Value": {
+                "id": "f0f7aafd-7498-4cda-895b-96d6fc1cecac",
+                "resourcePath": "rooms\/bossRoom\/bossRoom.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "050574d4-d9d9-40cd-9ffb-b5775f340ab9",
             "Value": {
                 "id": "84050d6a-1989-4dce-8c6d-aa45803354ba",
@@ -242,7 +250,7 @@
             "Key": "3532402c-b4d4-4a75-839d-28d87ab6479d",
             "Value": {
                 "id": "20fa4d37-ebea-4c3e-8e96-b3468cf28bc6",
-                "resourcePath": "rooms\/Ending2\/Ending2.yy",
+                "resourcePath": "rooms\/winRoom_Zenitsu\/winRoom_Zenitsu.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -458,7 +466,7 @@
             "Key": "83ea11ed-65b3-42ae-8e3a-4302a3cac8c8",
             "Value": {
                 "id": "2ecfd975-5217-4b94-839d-c74fd3db0618",
-                "resourcePath": "objects\/obj_temp_room_next\/obj_temp_room_next.yy",
+                "resourcePath": "objects\/obj_tutorialManager\/obj_tutorialManager.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -466,7 +474,7 @@
             "Key": "84ed9481-9f6a-43f0-8eb7-17d275ed1533",
             "Value": {
                 "id": "a312c89b-71cb-4b9b-9966-798a3e7a5c84",
-                "resourcePath": "rooms\/Ending4\/Ending4.yy",
+                "resourcePath": "rooms\/loseRoom\/loseRoom.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -625,7 +633,7 @@
         {
             "Key": "b87d6daf-fe7c-4384-aa4e-4d9c630726ee",
             "Value": {
-                "id": "6235e1fc-8f07-403b-bdcd-65f611c0e1d4",
+                "id": "a56981fb-5900-4358-9293-e89b2c97ba7b",
                 "resourcePath": "rooms\/startRoom\/startRoom.yy",
                 "resourceType": "GMRoom"
             }
@@ -730,7 +738,7 @@
             "Key": "d1342d39-15b2-43f1-b0d8-e4b806eaa8ea",
             "Value": {
                 "id": "7c904eb0-5ada-4b7c-8b51-620c76e86b2b",
-                "resourcePath": "rooms\/Ending1\/Ending1.yy",
+                "resourcePath": "rooms\/winRoom_Inosuke\/winRoom_Inosuke.yy",
                 "resourceType": "GMRoom"
             }
         },
