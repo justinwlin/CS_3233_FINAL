@@ -16,23 +16,19 @@ if (global.TanHP<=0){
 }
 
 if (room == startRoom) {
-	//if (global.InosukeLove>=25 || global.ZenitsuLove>=25) {
-	//	if (global.InosukeLove>=25) {
-	//		global.Boss = obj_Big_Inosuke
-	//	} else {
-		global.Boss = obj_Zenitsu_Boss
-		//}
+	if (global.InosukeLove>=25 || global.ZenitsuLove>=25) {
+		if (global.InosukeLove>=25) {
+			global.Boss = obj_Big_Inosuke
+		} else {
+			global.Boss = obj_Zenitsu_Boss
+		}
 		room_goto(bossRoom)
-	//}
+	}
 }
 
 if (room == bossRoom) {
 	if (!bossCreated) {
-		if (global.Boss == obj_Big_Inosuke) {
-			instance_create_depth(500, 300, 0, obj_Big_Inosuke)
-		} else if (global.Boss == obj_Zenitsu_Boss) {
-			instance_create_depth(500, 300, 0, obj_Zenitsu_Boss)
-		} 
+		instance_create_depth(500, 300, 0, global.Boss)
 		bossCreated = true
 	} else {
 		if (!instance_exists(global.Boss)) {
