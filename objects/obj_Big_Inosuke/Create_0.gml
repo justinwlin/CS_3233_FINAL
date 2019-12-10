@@ -2,6 +2,7 @@
 // You can write your code in this editor
 event_inherited()
 willDestroyRock=true;
+dialoging(0,"boss")
 
 spr_dash=spr_Inosuke_Boss_Dash
 spr_dashUp = spr_Inosuke_Boss_Dash

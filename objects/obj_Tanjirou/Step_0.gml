@@ -217,5 +217,7 @@ if (isHoldingShield){
 	
 }
 	
-	//x = clamp(x,250,room_width-290)
-	//y=clamp(y,140,room_height-90)
+	
+	if (room==bossRoom){
+	x = clamp(x,250,room_width-290)
+	y=clamp(y,140,room_height-90)}

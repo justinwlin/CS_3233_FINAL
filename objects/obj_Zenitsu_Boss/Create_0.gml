@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 event_inherited()
+dialoging(1,"boss")
 
 myAtkCollider=instance_create_depth(x,y,depth+1,obj_attacker)
 myAtkCollider.mask_index = spr_Zenitsu_Boss_DashCollider//boss's attcker

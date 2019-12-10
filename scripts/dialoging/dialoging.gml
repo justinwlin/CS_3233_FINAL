@@ -6,7 +6,7 @@ if (argument0==0){
 
 		if (argument1=="met"){
 			if (metInosuke==0){
-			DialogueManager.textToDisplay = ["Just right, Mojiro! Come and fight me!","Hey! I'm not here to fight ...","Chototsu Moushin!!!"]
+			DialogueManager.textToDisplay = ["Just right, Mojirou! Come and fight me!","Hey! I'm not here to fight ...","Chototsu Moushin!!!"]
 			DialogueManager.speakerName=["Inosuke","Tanjirou","Inosuke"]
 			DialogueManager.speakerIcon=[spr_Inosuke_Head,spr_TanjirouIcon,spr_Inosuke_Head]
 			isShowing=true;
@@ -29,6 +29,16 @@ if (argument0==0){
 			isShowing=true;
 			}
 			obj_gameManager.metInosuke++;
+		}else if (argument1=="boss"){
+		
+				DialogueManager.textToDisplay = ["You are the first one who can force me like this..",
+				"I have to say that you really made me interested!",
+				"I will surely let you submit to me!"]
+				DialogueManager.speakerName=["Inosuke","Inosuke","Tanjirou"]
+				DialogueManager.speakerIcon=[spr_Inosuke_Head,spr_Inosuke_Head,spr_TanjirouIcon]
+				isShowing=true;
+			
+			
 		}
 		
 
@@ -61,10 +71,20 @@ obj_gameManager.metZenitsu++;
 			isShowing=true;
 					DialogueManager.speakerIcon=[spr_Zenitsu_Icon]
 
-			DialogueManager.textToDisplay =["Tanjiro, you are so weird ... you are different from everyone else I ever seen."]
+			DialogueManager.textToDisplay =["Tanjiro, you are different from everyone else I ever seen."]
 			DialogueManager.speakerName=["Zenitsu"]
 		}
 			obj_gameManager.metZenitsu++;
+	}else if (argument1=="boss"){
+
+		
+		    isShowing=true;
+		    DialogueManager.speakerIcon=[spr_Zenitsu_Icon,spr_Zenitsu_Icon,spr_TanjirouIcon]
+
+			DialogueManager.textToDisplay =["I can't be weak and cry any more, Tanjiro, otherwise my heart will be captured by you!",
+"I have to defeat you so that I can regain control of my heart!",
+"Huh, your heart is already in my pocket!"]
+			DialogueManager.speakerName=["Zenitsu","Zenitsu","Tanjirou"]
 	}
 
 
