@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+
 isInCrush--;
 defenseSuceedElapsed--;
 if (defenseSuceedElapsed>0){
@@ -44,15 +45,20 @@ DashElapsed--;
 MeleeAttackElapsed--;
 
 if (DashElapsed>0){
-	
+	if (!place_meeting(x+dodgeSpeed*x_Direct,y+dodgeSpeed*y_Direct,wall)){
 	y+=dodgeSpeed* y_Direct;
 	x+=dodgeSpeed*x_Direct;
+	
+	}else{
+	DashElapsed=1;
+	}
 	
 	
 	if (DashElapsed==1){
 	sprite_index=spr_Tanjirou_Idle;
 	hasCollider=true;
 	isInvincible=false;
+	DashElapsed=0;
 	}
 	return;
 }
@@ -97,19 +103,29 @@ if (keyboard_check_released(left_key)
 
 }
 if (keyboard_check(left_key)){
-x-=spd;
+	if (!place_meeting(x-spd,y,wall)){
+		x-=spd;
+	}
 image_xscale=-1;
 }
 
 if (keyboard_check(right_key)){
+	if (!place_meeting(x+spd,y,wall)){
 x+=spd;
+	}
 image_xscale=1;
 }
 if (keyboard_check(up_key)){
+
+	if (!place_meeting(x,y-spd,wall)){
 y-=spd;
+	}
+
 }
 if (keyboard_check(down_key)){
+	if (!place_meeting(x,y+spd,wall)){
 y+=spd;
+	}
 
 }
 if (keyboard_check(left_key)
@@ -194,3 +210,5 @@ if (isHoldingShield){
 	
 }
 	
+	//x = clamp(x,250,room_width-290)
+	//y=clamp(y,140,room_height-90)

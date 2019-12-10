@@ -85,17 +85,17 @@ if (stunTimer < stunTimeout) {
 	}
 }
 
-if (x < 0) {
+if (x < 250) {
 	dashDir = 0
 }
 
-if (x > room_width) {
+if (x > room_width-290) {
 	dashDir = 1
 }
-if (y<0){
+if (y<140){
 	dashDir=3;
 }
-if (y>room_height){
+if (y>room_height-90){
 	dashDir=2
 }
 //if (dashDir==0){dir=0;}

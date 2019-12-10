@@ -40,16 +40,22 @@ switch (walkDir){
 if (isWalking){
 	direction = walkDir*90;
 	sprite_index=spr_Walk
-	if (x<0){
+	
+	
+	
+
+	
+	
+	if (x<250){
 	walkDir=0;
 	image_xscale=-1;
-	}else if (x>room_width){
+	}else if (x>room_width-290){
 		walkDir=2;
 		image_xscale=1;
 		}
-	if (y<0){
+	if (y<140){
 	walkDir=3;
-	}else if (y>room_height){
+	}else if (y>room_height-90){
 		walkDir=1;}
 
 }else{

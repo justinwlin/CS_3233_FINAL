@@ -14,7 +14,7 @@ switch(argument0){
 
 	break;
 	case 1:
-		obj_Tanjirou.y=room_height-300;
+		obj_Tanjirou.y=room_height-120;
 
 targetI--;
 	break;
@@ -24,13 +24,14 @@ targetI--;
 
 	break;
 	case 3:
-		obj_Tanjirou.y=300;
+		obj_Tanjirou.y=220;
 		targetI++;
 
 break;
 }
 
 instance_destroy(obj_Door)
+instance_destroy(wall1)
 //instance_destroy(obj_Enemy)
 instance_destroy(obj_RefreshableObj)
 //all existance; create a new object
