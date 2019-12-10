@@ -167,6 +167,14 @@
             }
         },
         {
+            "Key": "17b8947a-0095-444b-a19b-26b91efe5121",
+            "Value": {
+                "id": "b9dae438-cc38-4748-9fdd-fa9f59b3c9d7",
+                "resourcePath": "sprites\\spr_LoseScreen\\spr_LoseScreen.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1843d999-d47c-446c-a89b-cc827a42cae0",
             "Value": {
                 "id": "0821553f-a1f5-4d28-96be-fa971d4dd76d",
@@ -815,6 +823,14 @@
             }
         },
         {
+            "Key": "d35e06b5-361b-443c-9312-3c05706f8b83",
+            "Value": {
+                "id": "02c87a5f-b56b-492d-acee-b3b15f3ad4e7",
+                "resourcePath": "objects\\obj_WhiteScreen\\obj_WhiteScreen.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d68304dc-17c3-4a38-82a6-98d679b428e5",
             "Value": {
                 "id": "13216cd2-6132-47af-a8bb-519f6bec27b8",
@@ -963,6 +979,14 @@
             "Value": {
                 "id": "2fd6c757-3b87-408e-895d-b9b26a1e0417",
                 "resourcePath": "sprites\/Tutorial_1\/Tutorial_1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ec597511-579b-4e57-952e-704bf9bf60b3",
+            "Value": {
+                "id": "899f596e-9e1b-4ddd-9031-49e117010767",
+                "resourcePath": "sprites\\spr_WhiteScreen\\spr_WhiteScreen.yy",
                 "resourceType": "GMSprite"
             }
         },

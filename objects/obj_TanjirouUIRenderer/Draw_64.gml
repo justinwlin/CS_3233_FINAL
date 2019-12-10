@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+global.TanHP = clamp(global.TanHP,0,global.TanMaxHP);
 //UI Setting
 l_pad=150
 b_pad=90

@@ -5,3 +5,5 @@ speed=5
 parent=id;
 hasCollider=true;
 atk=3
+isPassive=false;
+isWater=true;

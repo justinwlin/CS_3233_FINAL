@@ -10,7 +10,10 @@ sprite_index=Ending2CG2;
 }else if (currCG==3){
 
 sprite_index=Ending2CG3;
+
+
 }else if (currCG==4){
+	instance_create_depth(0,0,depth-1,obj_WhiteScreen)
 sprite_index=Ending2CG4;
 
 //show btn

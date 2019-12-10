@@ -42,9 +42,9 @@ for(i=0;i<3;i++){
 for(j=0;j<rm.enimies[?i];j++){
 
 if (i==0){
-instance_create_depth(random_range(0,room_width),random_range(0,room_height),1,obj_Small_Inosuke);
+instance_create_depth(random_range(220,room_width-290),random_range(250,room_height-100),1,obj_Small_Inosuke);
 }else if (i==1){
-instance_create_depth(random_range(0,room_width),random_range(0,room_height),1,obj_Zenitsu);
+instance_create_depth(random_range(220,room_width-290),random_range(250,room_height-100),1,obj_Zenitsu);
 
 }
 }

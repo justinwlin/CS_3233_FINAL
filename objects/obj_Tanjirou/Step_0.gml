@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-
+recoverSpeed--;
 isInCrush--;
 defenseSuceedElapsed--;
 if (defenseSuceedElapsed>0){
@@ -14,8 +14,11 @@ isDefenseSucceed=false;
 
 }	
 }
-if (isInCrush<0 && global.TanHP<global.TanMaxHP){
-global.TanHP+=0.01;
+
+if (isInCrush==1){other.recoverSpeed=250;}
+
+if (isInCrush<0 && global.TanHP<global.TanMaxHP && recoverSpeed>0){
+	global.TanHP+=0.02;
 }
 
 if (isInvincible){

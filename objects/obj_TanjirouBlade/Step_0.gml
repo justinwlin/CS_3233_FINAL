@@ -6,3 +6,4 @@ y=obj_Tanjirou.y;
 if (elapsed>15){
 instance_destroy()
 }
+atk = 1*(1+(100-global.TanHP)/100*2);

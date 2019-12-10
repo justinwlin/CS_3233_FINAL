@@ -9,4 +9,11 @@ other.isInvincible=true;
 other.invincibleElapsed=other.invincibleCD;
 global.TanHP-=parent.atk;
 other.isInCrush=100;
+/*
+if (other.x>x){other.x+=15;}
+if (other.x<x){other.x-=15;}
+if (other.y>y){other.y+=15;}
+if (other.y<y){other.y-=15;}
+*/
+
 }}

@@ -4,3 +4,4 @@ hasCollider=true;
 parent=id;
 
 isPassive=true;//dashing attacker is active
+isWater=false;

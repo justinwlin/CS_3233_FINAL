@@ -2,7 +2,7 @@
 // You can write your code in this editor
 //instantiate:generate rooms
 
-currRoom=12;//start from 8
+currRoom=10;//start from 8
 
 maps = ds_list_create()
 
@@ -24,9 +24,9 @@ for (i=0;i<irow;i++){
 }
 
 //initialize the map
-existRooms = [2,7,11,12]
+existRooms = [1,6,7,8,10,11,13,16,17,18]
 
-for(i=0;i<4;i++){
+for(i=0;i<10;i++){
 maps[|existRooms[i]].exist=true;
 
 
@@ -34,13 +34,26 @@ maps[|existRooms[i]].exist=true;
 
 for(j=0;j<3;j++){
 //	ran = irandom_range(0,2)
-	ds_map_replace(maps[|existRooms[i]].enimies, j, 1);
+//	ds_map_replace(maps[|existRooms[i]].enimies, j, 1);
 //	ds_map_replace(maps[|existRooms[i]].enimies, 1, 2);
 }
 
 }
-ds_map_replace(maps[|existRooms[0]].enimies, 1, 2);
-ds_map_replace(maps[|existRooms[3]].enimies, 0, 2);
+//ds_map_replace(maps[|existRooms[0]].enimies, 1, 2);
+//ds_map_replace(maps[|existRooms[3]].enimies, 0, 2);
+
+ds_map_replace(maps[|1].enimies, 0, 2);
+ds_map_replace(maps[|6].enimies, 1,1);
+ds_map_replace(maps[|7].enimies, 0,1);
+ds_map_replace(maps[|7].enimies, 1,1);
+ds_map_replace(maps[|8].enimies, 0,1);
+ds_map_replace(maps[|11].enimies,0,1);
+ds_map_replace(maps[|13].enimies,0,1);
+ds_map_replace(maps[|13].enimies,1,1);
+ds_map_replace(maps[|16].enimies,1,1);
+ds_map_replace(maps[|18].enimies,1,1);
+
+
 
 for(i=0;i<irow;i++){
 for(j=0;j<jcol;j++){

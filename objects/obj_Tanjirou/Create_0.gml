@@ -29,7 +29,7 @@ invincibleCD=30;
 hasCollider=true;
 bloodTimer=0;
 isShakeLeft=false;
-
+recoverSpeed=0;
 
 x_Direct=0;
 y_Direct=0;

@@ -12,7 +12,11 @@ if (keyboard_check_pressed(ord("R"))){
 }
 
 if (global.TanHP<=0){
-	room_goto(loseRoom)
+	room_goto(loseRoom)//instance_destroy();
+	instance_destroy(obj_Tanjirou);
+	instance_destroy(obj_TanjirouUIRenderer);
+	instance_destroy()
+	return;
 }
 
 if (room == startRoom) {
@@ -33,9 +37,14 @@ if (room == bossRoom) {
 	} else {
 		if (!instance_exists(global.Boss)) {
 			if (global.Boss == obj_Big_Inosuke) {
-				room_goto(winRoom_Inosuke)
+			
+//			instance_destroy(obj_Tanjirou);
+			instance_destroy(obj_TanjirouUIRenderer);
+			room_goto(winRoom_Inosuke)
 			} else if (global.Boss == obj_Zenitsu_Boss) {
 				room_goto(winRoom_Zenitsu)
+			//	instance_destroy(obj_Tanjirou);
+				instance_destroy(obj_TanjirouUIRenderer);
 			} 
 		}
 		

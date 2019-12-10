@@ -22,19 +22,19 @@ startY = [0, room_height]
 randomStart = irandom_range(0, 3)
 // 0: right; 1: left; 2:up;3:down
 dashDir = randomStart
-x = start[0]
-y = random_range(0, room_height)
+//x = start[0]
+//y = random_range(0, room_height)
 
 if (randomStart == 1) {
 //	dashDir = 1
-	x = start[1]
+//	x = start[1]
 }else if (randomStart==2){
 
-x = random_range(0,room_width)
-y = startY[0]
+//x = random_range(0,room_width)
+//y = startY[0]
 }else if (randomStart==3){
-x = random_range(0,room_width)
-y = startY[1]
+//x = random_range(0,room_width)
+//y = startY[1]
 
 }
 dashSpeed = random_range(4,6)
