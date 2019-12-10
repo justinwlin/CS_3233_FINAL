@@ -1,6 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 event_inherited()
+
 willDestroyRock=false;
 rockElapsed=0;
 
@@ -14,7 +15,7 @@ spr_atk=spr_Inosuke_Dash_Atk_Hori;
 spr_atkUp=spr_Inosuke_Dash_Atk_Up
 spr_atkDown=spr_Inosuke_Dash_Atk_Down
 
-
+dialoging(0,"met")
 
 start = [0, room_width]
 startY = [0, room_height]

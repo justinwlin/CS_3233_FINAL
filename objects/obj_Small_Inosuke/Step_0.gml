@@ -13,6 +13,10 @@ if (hitRock != noone) {
 	
 }
 */
+if (DialogueManager.isDisplaying){
+	sprite_index=spr_Walk;
+	return;}
+
 event_inherited()
 
 rockElapsed--;

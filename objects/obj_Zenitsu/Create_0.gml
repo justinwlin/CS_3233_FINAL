@@ -2,6 +2,7 @@
 // You can write your code in this editor
 event_inherited()
 
+dialoging(1,"met")
 atkPeriod=0;
 atkPeriodCD=50;
 atkPeriodElapsed=0;

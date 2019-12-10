@@ -399,6 +399,14 @@
             }
         },
         {
+            "Key": "5a9b6157-13b9-4837-a344-b100ab7332ab",
+            "Value": {
+                "id": "f8d061af-e0e6-4c8d-95d2-946619f2b11f",
+                "resourcePath": "objects\\DialogueManager\\DialogueManager.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5b4e91c5-86ea-4fed-8563-26457cfd879c",
             "Value": {
                 "id": "5e6f8b7c-bc40-49c5-b21c-13c30c79cdb7",
@@ -783,6 +791,14 @@
             }
         },
         {
+            "Key": "cb06aa5b-8ff9-42c4-b652-710963b6e789",
+            "Value": {
+                "id": "db71808a-0d2b-41fe-ae68-96136b1e49cb",
+                "resourcePath": "scripts\\dialoging\\dialoging.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "efe7441d-d091-4670-8b4d-2e7e0162747f",
@@ -1044,7 +1060,8 @@
         "5e2d8c73-bf55-4f20-bfe3-cbaf0cd7a022",
         "d828a025-75f0-4e96-ad77-205f4902c829",
         "2b1cd49c-7288-4ba3-91ed-7ef60c1a45e0",
-        "a7b229e3-e61c-48bf-af65-d8a624df483f"
+        "a7b229e3-e61c-48bf-af65-d8a624df483f",
+        "cb06aa5b-8ff9-42c4-b652-710963b6e789"
     ],
     "tutorial": ""
 }

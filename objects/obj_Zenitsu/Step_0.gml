@@ -1,6 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
 event_inherited()
+if (DialogueManager.isDisplaying){
+		sprite_index=spr_Attack
+speed=0;
+	return;}
 
 
 walkingElapsed--;

@@ -1,5 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
+if (DialogueManager.isDisplaying){return;}
+
 invincibleElapsed--;
 showingHealthElapsed--;
 if (invincibleElapsed<=0){

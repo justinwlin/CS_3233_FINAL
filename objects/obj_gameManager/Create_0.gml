@@ -18,3 +18,6 @@ global.Boss = noone;
 maxLove=25;
 
 bossCreated = false;
+
+metZenitsu=0;
+metInosuke=0;
