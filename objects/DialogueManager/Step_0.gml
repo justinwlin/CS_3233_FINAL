@@ -10,7 +10,7 @@ if (isAnimating){
 }
 }
 
-if (keyboard_check_pressed(vk_return)){
+if (keyboard_check_pressed(vk_space)){
 	if (isAnimating){
 		isAnimating=false;
 		displayerText = textToDisplay[currText];
