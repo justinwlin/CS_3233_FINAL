@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "01dce765-0b0d-45fa-b231-3edc21d9b8a0",
+            "Value": {
+                "id": "76013419-ac5d-4885-a20a-ecfa008db91a",
+                "resourcePath": "sounds\/snd_bg\/snd_bg.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "02cf15fb-a584-4878-bb7d-4398d5b4a5d5",
             "Value": {
                 "id": "8d50042d-25fe-4cb2-a354-5da1d8d397c1",
@@ -106,7 +114,7 @@
             "Key": "0a688224-fbe6-494e-b598-8245ba0e2840",
             "Value": {
                 "id": "61e5cb6c-d392-40a0-baa9-9c9b04075f47",
-                "resourcePath": "objects\\wall\\wall.yy",
+                "resourcePath": "objects\/wall\/wall.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -170,7 +178,7 @@
             "Key": "17b8947a-0095-444b-a19b-26b91efe5121",
             "Value": {
                 "id": "b9dae438-cc38-4748-9fdd-fa9f59b3c9d7",
-                "resourcePath": "sprites\\spr_LoseScreen\\spr_LoseScreen.yy",
+                "resourcePath": "sprites\/spr_LoseScreen\/spr_LoseScreen.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -210,7 +218,7 @@
             "Key": "24770bf2-9105-4cc8-9237-281355a969db",
             "Value": {
                 "id": "d82b3bcc-822e-495f-9fd3-d7956f61c9c6",
-                "resourcePath": "sprites\\Ending2CG1\\Ending2CG1.yy",
+                "resourcePath": "sprites\/Ending2CG1\/Ending2CG1.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -258,7 +266,7 @@
             "Key": "2a3dbf60-542f-4730-817b-5f7dc57e4235",
             "Value": {
                 "id": "138c3cfd-751b-4ccb-93fb-cc3a516bcbe5",
-                "resourcePath": "sprites\\Ending2CG4\\Ending2CG4.yy",
+                "resourcePath": "sprites\/Ending2CG4\/Ending2CG4.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -322,7 +330,7 @@
             "Key": "3ed37c37-562c-44f4-8521-f8077a44e55c",
             "Value": {
                 "id": "bf383b43-5d0d-4520-8131-eaa07451f619",
-                "resourcePath": "views\\3ed37c37-562c-44f4-8521-f8077a44e55c.yy",
+                "resourcePath": "views\/3ed37c37-562c-44f4-8521-f8077a44e55c.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -330,7 +338,7 @@
             "Key": "3f49e1dd-849e-4875-9b66-324b7e462182",
             "Value": {
                 "id": "e5a9712d-8232-4321-9437-6f335e81e601",
-                "resourcePath": "sprites\\Ending2CG2\\Ending2CG2.yy",
+                "resourcePath": "sprites\/Ending2CG2\/Ending2CG2.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -402,7 +410,7 @@
             "Key": "5a9b6157-13b9-4837-a344-b100ab7332ab",
             "Value": {
                 "id": "f8d061af-e0e6-4c8d-95d2-946619f2b11f",
-                "resourcePath": "objects\\DialogueManager\\DialogueManager.yy",
+                "resourcePath": "objects\/DialogueManager\/DialogueManager.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -490,7 +498,7 @@
             "Key": "770eb29e-cd92-4583-afa1-bfeb33545ec1",
             "Value": {
                 "id": "64805700-8d1a-46ae-880d-61d20191e7f4",
-                "resourcePath": "objects\\Ending2Manager\\Ending2Manager.yy",
+                "resourcePath": "objects\/Ending2Manager\/Ending2Manager.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -522,7 +530,7 @@
             "Key": "804a320a-eb86-494f-a8ac-c815e1a25010",
             "Value": {
                 "id": "cc3b1289-00d6-462b-8498-6b8a5582528c",
-                "resourcePath": "sprites\\spr_wall\\spr_wall.yy",
+                "resourcePath": "sprites\/spr_wall\/spr_wall.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -786,7 +794,7 @@
             "Key": "cab9cb1e-a6ed-48cb-9b33-07f15c62fc9c",
             "Value": {
                 "id": "e50c395d-1c76-42f6-934c-bf335a60a7bf",
-                "resourcePath": "objects\\wall1\\wall1.yy",
+                "resourcePath": "objects\/wall1\/wall1.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -794,7 +802,7 @@
             "Key": "cb06aa5b-8ff9-42c4-b652-710963b6e789",
             "Value": {
                 "id": "db71808a-0d2b-41fe-ae68-96136b1e49cb",
-                "resourcePath": "scripts\\dialoging\\dialoging.yy",
+                "resourcePath": "scripts\/dialoging\/dialoging.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -842,7 +850,7 @@
             "Key": "d35e06b5-361b-443c-9312-3c05706f8b83",
             "Value": {
                 "id": "02c87a5f-b56b-492d-acee-b3b15f3ad4e7",
-                "resourcePath": "objects\\obj_WhiteScreen\\obj_WhiteScreen.yy",
+                "resourcePath": "objects\/obj_WhiteScreen\/obj_WhiteScreen.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -946,7 +954,7 @@
             "Key": "e338c5b0-0a28-4246-97ab-b224408c5e5e",
             "Value": {
                 "id": "747b8d58-f5f1-43d6-ac21-39dbe0724388",
-                "resourcePath": "sprites\\Ending2CG3\\Ending2CG3.yy",
+                "resourcePath": "sprites\/Ending2CG3\/Ending2CG3.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1002,7 +1010,7 @@
             "Key": "ec597511-579b-4e57-952e-704bf9bf60b3",
             "Value": {
                 "id": "899f596e-9e1b-4ddd-9031-49e117010767",
-                "resourcePath": "sprites\\spr_WhiteScreen\\spr_WhiteScreen.yy",
+                "resourcePath": "sprites\/spr_WhiteScreen\/spr_WhiteScreen.yy",
                 "resourceType": "GMSprite"
             }
         },
