@@ -35,6 +35,16 @@ for(i=0;i<4;i++){
 
 }
 
+i=0;
+for(i=0;i<array_length_1d(obj_MapManager.maps[| obj_MapManager.currRoom].rockPositions);i+=1){
+rockPos=obj_MapManager.maps[| obj_MapManager.currRoom].rockPositions[i]
+
+ins = instance_create_layer(rockPos[0],rockPos[1],"Instances",obj_Rock)
+ins.image_index=random_range(0,4)
+
+}
+
+
 obj_Tanjirou.invincibleElapsed=20;
 obj_Tanjirou.DashElapsed=0;
 //Render Monsters

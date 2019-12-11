@@ -17,3 +17,4 @@ ds_map_add(enimies, i, 0);
 
 }
 
+rockPositions=[]

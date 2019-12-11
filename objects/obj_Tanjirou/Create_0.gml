@@ -10,6 +10,8 @@ DashElapsed=0;
 
 //settings
 
+lastDirect=0;
+
 up_key = ord("W")
 down_key=ord("S")
 left_key=ord("A")

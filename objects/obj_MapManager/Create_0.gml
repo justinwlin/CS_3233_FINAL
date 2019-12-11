@@ -24,19 +24,20 @@ for (i=0;i<irow;i++){
 }
 
 //initialize the map
-existRooms = [1,6,7,8,10,11,13,16,17,18]
+existRooms = [1,6,7,8,10,11,13,16,17,18,22]
 
-for(i=0;i<10;i++){
+for(i=0;i<11;i++){
 maps[|existRooms[i]].exist=true;
 
-
-//ds_map_replace(maps[|existRooms[0]].enimies, 0, 1);
-
-for(j=0;j<3;j++){
-//	ran = irandom_range(0,2)
-//	ds_map_replace(maps[|existRooms[i]].enimies, j, 1);
-//	ds_map_replace(maps[|existRooms[i]].enimies, 1, 2);
-}
+maps[|1].rockPositions = [[300,400],[700,600]]
+maps[|11].rockPositions = [[700,500],[400,650]]
+maps[|7].rockPositions = [[600,800]]
+maps[|6].rockPositions = [[400,700],[1100,500]]
+maps[|18].rockPositions = [[800,600]]
+maps[|13].rockPositions = [[650,780]]
+maps[|8].rockPositions = [[710,610]]
+maps[|16].rockPositions = [[650,610]]
+maps[|22].rockPositions = [[600,810],[800,400]]
 
 }
 //ds_map_replace(maps[|existRooms[0]].enimies, 1, 2);
@@ -46,12 +47,13 @@ ds_map_replace(maps[|1].enimies, 0, 2);
 ds_map_replace(maps[|6].enimies, 1,1);
 ds_map_replace(maps[|7].enimies, 0,1);
 ds_map_replace(maps[|7].enimies, 1,1);
-ds_map_replace(maps[|8].enimies, 0,1);
+ds_map_replace(maps[|18].enimies, 0,1);
 ds_map_replace(maps[|11].enimies,0,1);
 ds_map_replace(maps[|13].enimies,0,1);
 ds_map_replace(maps[|13].enimies,1,1);
 ds_map_replace(maps[|16].enimies,1,1);
-ds_map_replace(maps[|18].enimies,1,1);
+ds_map_replace(maps[|8].enimies,1,1);
+ds_map_replace(maps[|22].enimies,1,2);
 
 
 

@@ -83,9 +83,9 @@ if (stunTimer < stunTimeout) {
 		dashTimer = 0
 		nextDashTimer = 0
 		dashDir=irandom_range(0, 3)
-		if (willDestroyRock){
+//		if (willDestroyRock){
 			dashDir = getDirection(x,y)
-		}
+//		}
 	}
 }
 

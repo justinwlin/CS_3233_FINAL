@@ -113,6 +113,7 @@ if (keyboard_check(left_key)){
 	if (!place_meeting(x-spd,y,wall)){
 		x-=spd;
 	}
+	lastDirect=2;
 image_xscale=-1;
 }
 
@@ -120,6 +121,8 @@ if (keyboard_check(right_key)){
 	if (!place_meeting(x+spd,y,wall)){
 x+=spd;
 	}
+	lastDirect=0;
+
 image_xscale=1;
 }
 if (keyboard_check(up_key)){
@@ -127,12 +130,16 @@ if (keyboard_check(up_key)){
 	if (!place_meeting(x,y-spd,wall)){
 y-=spd;
 	}
+		lastDirect=1;
+
 
 }
 if (keyboard_check(down_key)){
 	if (!place_meeting(x,y+spd,wall)){
 y+=spd;
 	}
+		lastDirect=3;
+
 
 }
 if (keyboard_check(left_key)
@@ -149,14 +156,18 @@ if (MeleeAttackElapsed<=0 && keyboard_check_pressed(meleeAtk_key)){
 	MeleeAttackElapsed=MeleeAttackCD;
 	ins = instance_create_depth(x,y,depth-1,obj_TanjirouBlade)
 	if (keyboard_check(up_key)){
-	ins.image_angle = 90;
+		ins.image_angle = 90;
 	}
 	else if (keyboard_check(down_key)){
 		ins.image_angle = 270;
 
 	}
-	else {
-		ins.image_xscale=image_xscale;
+	else if (keyboard_check(left_key)||keyboard_check(right_key)){
+	
+		ins.image_angle=image_xscale;
+	}else{
+		
+		ins.image_angle=90*lastDirect;
 	}
 }
 
@@ -176,9 +187,27 @@ y_Direct=0;
 	else if (keyboard_check(down_key)){
 	y_Direct = 1;
 		sprite_index=spr_Tanjirou_DodgeDown;
-	}else{
+	}else  if (keyboard_check(right_key)||keyboard_check(left_key)){
 		x_Direct=image_xscale;
 		sprite_index=spr_Tanjirou_Dodge;	
+	}else{
+		if (lastDirect==1||lastDirect==3){
+			if (lastDirect==1){
+			y_Direct=-1;
+			sprite_index=spr_Tanjirou_DodgeUp;
+		}else{
+			y_Direct=1;
+			sprite_index=spr_Tanjirou_DodgeDown;
+			}
+		
+		}else if (lastDirect==0||lastDirect==2){
+			sprite_index=spr_Tanjirou_Dodge;	
+			if (lastDirect==0){
+				x_Direct=1;
+			}else{
+				x_Direct=-1;
+			}
+		}
 	}
 
 }
@@ -207,9 +236,12 @@ if (isHoldingShield){
 				ins.image_angle = 270;
 			ins.dir=3;
 			}
-			else {
-			ins.image_xscale=image_xscale;
-			if (image_xscale==1){ins.dir=0;}else if (image_xscale==-1){ins.dir=2;}
+			else if(keyboard_check(right_key)||keyboard_check(left_key)) {
+				ins.image_xscale=image_xscale;
+				if (image_xscale==1){ins.dir=0;}else if (image_xscale==-1){ins.dir=2;}
+			}else{
+				ins.image_angle=lastDirect*90;
+				ins.dir=lastDirect;
 			}
 		isHoldingShield=true;sprite_index=spr_Tanjirou_Defense;
 	}

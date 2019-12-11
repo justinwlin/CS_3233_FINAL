@@ -27,6 +27,7 @@ if (room == startRoom) {
 			global.Boss = obj_Zenitsu_Boss
 		}
 		room_goto(bossRoom)
+		instance_create_depth(0,0,-1000,obj_WhiteScreen)
 	}
 }
 
@@ -34,6 +35,21 @@ if (room == bossRoom) {
 	if (!bossCreated) {
 		instance_create_depth(500, 300, 0, global.Boss)
 		bossCreated = true
+		
+		if (global.Boss==obj_Big_Inosuke){
+		
+		i=0;
+		bossRockPos=[[300,400],[700,700],[1350,650],[400,200]]
+		for(i=0;i<array_length_1d(bossRockPos);i+=1){
+			rockPos=bossRockPos[i]
+			ins = instance_create_layer(rockPos[0],rockPos[1],"Instances",obj_Rock)
+			ins.image_index=random_range(0,4)
+
+		}
+
+		
+		}
+		
 	} else {
 		if (!instance_exists(global.Boss)) {
 			if (global.Boss == obj_Big_Inosuke) {

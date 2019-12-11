@@ -6,6 +6,8 @@ pos = obj_MapManager.maps[| obj_MapManager.currRoom].position;
 targetJ=pos[1];
 targetI=pos[0]
 
+
+
 switch(argument0){
 	case 0:
 		//go to right room
@@ -32,6 +34,7 @@ break;
 
 instance_destroy(obj_Door)
 instance_destroy(wall1)
+instance_destroy(obj_Rock)
 //instance_destroy(obj_Enemy)
 instance_destroy(obj_RefreshableObj)
 //all existance; create a new object
